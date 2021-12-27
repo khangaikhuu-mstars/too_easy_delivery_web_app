@@ -1,0 +1,15 @@
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer h4{
+    font-size: 14px;
+    font-weight: 700;
+}
