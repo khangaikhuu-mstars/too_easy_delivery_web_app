@@ -1,3 +1,7 @@
 .Background_img {
     background-image: url(../../public/images/Info_panel/Background_img.png);
 }
+.infoBox {
+    display: flex;
+    flex-direction: column;
+}
