@@ -10,8 +10,9 @@
 /* slider image size */
 .sliderMobileImage{
     width: 100%;
-    height: 100%;
+    height: 100px;
 }
+
 
 /* button color */
 .carousel-indicators [data-bs-target] {
