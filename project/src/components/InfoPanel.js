@@ -34,7 +34,7 @@ const InfoPanel = () => {
     //     </Row>
     //   </Container>
 
-    <Container>
+    <Container className="Info_panel">
          <div className="Background_img">
       <Row>
         <Col sm={4} className="Info_box">
