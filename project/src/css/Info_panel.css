@@ -144,13 +144,13 @@
   }
   .Info_box h2 {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
     /* white-space: nowrap; */
   }
   .Info_box p {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
   }
 }
