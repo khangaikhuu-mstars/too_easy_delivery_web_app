@@ -1,3 +1,15 @@
-.zurag{
-    background-image: url(/project/src/image/search.svg)
+.first-div{
+    position: relative;
+}
+.deliveryLogo{
+    position: absolute;
+    left: 8.33%;
+    
+}
+.foodDelivery{
+    color: #F17228;
+}
+.orangeFont{
+    color: #F17228;
+    text-decoration: none;
 }

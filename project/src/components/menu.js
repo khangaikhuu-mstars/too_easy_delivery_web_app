@@ -1,41 +1,43 @@
 import React from "react";
-import { Navbar, Container, Offcanvas, Nav, NavDropdown, Form, FormControl, Button, Image, DropdownButton, MenuItem} from "react-bootstrap";
+import { Navbar, Container, Offcanvas, Nav, NavDropdown, Form, FormControl, Button, Image, DropdownButton, MenuItem } from "react-bootstrap";
+import foodDeliveryLogo from '../image/fooddelivery.svg'
+import searchLogo from '../image/search.svg'
+import adminLogo from '../image/admin.svg'
+import button from '../image/button.svg'
+import basketIcon from '../image/basketIcon.svg'
+import userIcon from '../image/userIcon.png'
 function Menu() {
     return (
-        <Navbar bg="light" expand={false}>
-            <Container fluid>
-                
-                <Navbar.Toggle aria-controls="offcanvasNavbar" />
-                <Navbar.Offcanvas
-                    id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel"
-                    placement="end"
-                >
-                    <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Нүүр</Nav.Link>
-                            <Nav.Link href="#action2">Хоолны цэс</Nav.Link>
-                            <Nav.Link href="#action2">Хүргэлтийн бүс</Nav.Link>
-                        </Nav>
-                        <Form className="d-flex">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
-                    </Offcanvas.Body>
-                </Navbar.Offcanvas>
-                <a href="haha">
-                    <img src="/image/search.svg"/>
-                </a>
-                <DropdownButton title={<span><i className="zurag"></i></span>}>
-               
-                </DropdownButton>
-            </Container>
-        </Navbar>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="d-flex first-div">
+                    <img src={foodDeliveryLogo} alt=""  className="deliveryLogo"/>
+                    <h1 class="foodDelivery">Food Delivery</h1>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#" class='orangeFont'>Нүүр</a>
+                        <a class="nav-link" href="#">Хоолны цэс</a>
+                        <a class="nav-link" href="#">Хүргэлтийн бүс</a>
+                    </div>
+                </div>
+                <div>
+                    <input class="form-control me-2" type="search" placeholder="Хайх" aria-label="Search"></input>
+                </div>
+                <div>
+                    <img src={basketIcon}></img>
+                    <p1 className='orangeFont'>Сагс</p1>
+                </div>
+                <div>
+                    <img src={userIcon}></img>
+                    <p1 className='orangeFont'>Нэвтрэх</p1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+        </nav>
     )
 }
 
