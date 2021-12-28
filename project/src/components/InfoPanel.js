@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const InfoPanel = () => {
   return (
     <Container >
-      <div className="Background_img">
+        <div className="Background_img">
         <Row className="Info_panel">
-          <Col sm={4}className="Info_box">
+          <Col md={4} className="Info_box">
             <svg
               width="40"
               height="40"
@@ -32,7 +32,7 @@ const InfoPanel = () => {
               <p>30 минутанд таны гарт</p>
             </div>
           </Col>
-          <Col sm={4} className="Info_box">
+          <Col md={4} className="Info_box">
             <svg
               width="40"
               height="40"
@@ -57,7 +57,7 @@ const InfoPanel = () => {
               <p>Хамгийн чанартайг танд</p>
             </div>
           </Col>
-          <Col sm={4} className="Info_box">
+          <Col md={4} className="Info_box">
             <svg
               width="43"
               height="40"
