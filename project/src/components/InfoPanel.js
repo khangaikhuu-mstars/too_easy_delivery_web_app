@@ -16,10 +16,10 @@ const InfoPanel = () => {
 
     // </div>
 
-    <Container className="Info_panel">
+    <Container >
       <div className="Background_img">
-        <Row >
-          <Col sm={4} className="Info_box">
+        <Row className="Info_panel">
+          <Col sm={4}className="Info_box">
             <svg
               width="40"
               height="40"
