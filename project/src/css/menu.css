@@ -1,15 +1,49 @@
-.first-div{
-    position: relative;
-}
-.deliveryLogo{
-    position: absolute;
-    left: 8.33%;
-    
-}
 .foodDelivery{
-    color: #F17228;
+    color: #F17228 ;
+    font-weight: bold;
+    font-size: 14px;
+    width: 105px;
+    height: 25px;
+    left: 24.52%;
+    right: 8.6%;
+    top: 18.75%;
+    bottom: 18.75;
+    position: static;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+    order: 1;
 }
-.orangeFont{
-    color: #F17228;
-    text-decoration: none;
+.foodDeliveryLogo{
+    background-image: url(../image/fooddelivery.svg);
+    width: 25px;
+    height: 25px;
+    top: 7.5px;
+    left: 13.5px;
+    order: 0;
 }
+.searchLogo{
+    width: 18px;
+    height: 20px;
+    left: 5px;
+    top: 5px;
+    position: static;
+    margin: 10px 0px;
+}
+.adminLogo{
+    width: 16px;
+    height: 18px;
+    left: 5px;
+    top: 5px;
+    position: static;
+    margin: 10px 0px;
+}
+.button{
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    position: static;
+}
+
