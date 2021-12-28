@@ -1,10 +1,22 @@
 import './App.css';
-import Slider from './components/Slider';
+import ScrollWidth from './components/scrollwidth';
+
 
 function App() {
-  return (
-    <Slider/>
-  );
+
+  
+  return(
+
+    <div>
+
+      <ScrollWidth />
+
+    </div>
+
+  )
+ 
+  
+
 }
 
 export default App;
