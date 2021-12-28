@@ -1,21 +1,8 @@
-import { Stack, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import '../../src/css/Info_panel.css';
+
 const InfoPanel = () => {
   return (
-    // <div className="infoPanel">
-    //   <div className="infoBox">
-    //     <img src={timeSVG}></img>
-    //   </div>
-    //   <div className="infoBox">
-
-    //   </div>
-    //   <div className="infoBox">
-
-    //   </div>
-
-    // </div>
-
     <Container >
       <div className="Background_img">
         <Row className="Info_panel">
