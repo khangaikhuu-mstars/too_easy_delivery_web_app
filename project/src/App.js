@@ -9,9 +9,9 @@ import '../src/css/InfoPanel.css'
 function App() {
   return (
     <div>
-      <SliderWeb />
+      {/* <SliderWeb /> */}
       <InfoPanel />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
