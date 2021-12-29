@@ -4,7 +4,7 @@ import SliderWeb from './components/sliderWeb';
 import InfoPanel from './components/InfoPanel';
 import './css/footer.css'
 import './App.css';
-import '../src/css/Info_panel.css'
+import '../src/css/InfoPanel.css'
 
 function App() {
   return (
