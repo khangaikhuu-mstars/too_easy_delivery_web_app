@@ -1,7 +1,8 @@
 
 
 import SliderMobile from './SliderMobile';
-import SliderTab from './SliderTab'
+import SliderTab from './SliderTab';
+import SliderWeb from './sliderWeb';
 
 
 
@@ -13,9 +14,11 @@ function ScrollWidth() {
   console.log(width)
   if (width < 376){
       return ( <SliderMobile />)
-  }else {
+  }else if (width < 835) {
       return( <SliderTab />)
-  }
+  }else return(
+      <SliderWeb/>
+  )
  
   
 
