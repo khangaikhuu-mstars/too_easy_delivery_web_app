@@ -4,8 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/sliderMobile.css';
-import './css/sliderTab.css';
+
 import './css/sliderWeb.css';
 
 
