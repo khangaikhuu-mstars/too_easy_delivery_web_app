@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 739px) {
   .Info_panel {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     background-image: url(../../public/images/Info_panel/base.feature.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 739px;
   }
 
   .Info_box {
@@ -44,7 +44,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 834px) {
+@media (min-width: 740px) and (max-width: 1023px) {
   .Background_img {
     background: hsla(22, 88%, 55%, 1);
 
@@ -57,7 +57,7 @@
    
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 1023px;
     position: absolute;
     left: 0;
 
@@ -94,7 +94,7 @@
     margin: 0;
   }
 }
-@media (min-width: 835px) and (max-width: 1440px){
+@media (min-width: 1024px) and (max-width: 1440px){
   .Background_img {
     background: hsla(22, 88%, 55%, 1);
 
@@ -106,7 +106,7 @@
 
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 1440px;
     position: absolute;
     left: 0;
     z-index: 0;
