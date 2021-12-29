@@ -44,7 +44,7 @@ footer h4{
   }
 
 
-  @media screen and (min-width: 740px){
+  @media screen and (min-width: 769px){
     .privacy_policy p{
         font-size: 12px !important;
     }
@@ -53,7 +53,7 @@ footer h4{
     }
     
   }
-@media screen and (max-width : 739px) {
+@media screen and (max-width : 768px) {
     .social{
         border-bottom: #fff solid 1px;
     }
