@@ -2,7 +2,17 @@
 footer{
     position: absolute;
     bottom: 0px;
+    background-image: url('../images/Footer_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
 }
+
+.row{
+    margin-left: 0px !important;
+}
+
 
 footer p{
     font-size: 14px;
@@ -12,4 +22,38 @@ footer p{
 footer h4{
     font-size: 14px;
     font-weight: 700;
+    margin-top: 36px;
+    margin-left: 25px;
+    margin-bottom: 29px;
 }
+
+.footer_icon{
+    color: #fff;
+    text-decoration: none;
+    /* background-color: #778899; */
+    font-size: 20px;
+  }
+
+
+  .social{
+      margin-top: 50px;
+      padding-bottom: 14px;
+  }
+
+  .copyright{
+      text-align: right;
+  }
+
+  .textW400{
+      font-weight: 400;
+  }
+
+  .privacy_policy{
+      margin-left: 13px;
+  }
+  .copyright{
+      font-size: 12px;
+      margin-bottom: 65px;
+      margin-top: 20px;
+      margin-right: 13px;
+  }
