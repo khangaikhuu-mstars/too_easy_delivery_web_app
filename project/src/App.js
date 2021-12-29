@@ -1,9 +1,9 @@
-import './css/footer.css'
-import Footer from './components/Footer';
-import './App.css';
 import React from 'react';
+import Footer from './components/Footer';
 import SliderWeb from './components/sliderWeb';
 import InfoPanel from './components/InfoPanel';
+import './css/footer.css'
+import './App.css';
 import '../src/css/Info_panel.css'
 
 function App() {
