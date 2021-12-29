@@ -1,4 +1,3 @@
-
 footer{
     position: absolute;
     bottom: 0px;
@@ -8,42 +7,33 @@ footer{
     color: white;
     width: 100%;
 }
-
-.row{
-    margin-left: 0px !important;
-}
-
-
-footer p{
-    font-size: 14px;
-    font-weight: 600;
-}
-
 footer h4{
     font-size: 14px;
     font-weight: 700;
 }
-
+footer p{
+    font-size: 14px;
+    font-weight: 600;
+}
 .footer_icon{
     color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-  }
+}
+.textW400{
+    font-weight: 400;
+}
+.row{
+    margin-left: 0px !important;
+}
 
+.social{
+    padding-bottom: 14px;
+}
 
-  .social{
-      padding-bottom: 14px;
-  }
+.copyright{
+    text-align: right;
+}
 
-  .copyright{
-      text-align: right;
-  }
-
-  .textW400{
-      font-weight: 400;
-  }
-
-
+  /* Media query for border lines*/
   @media screen and (min-width: 769px){
     .privacy_policy p{
         font-size: 12px !important;
