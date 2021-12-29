@@ -6,4 +6,4 @@ const BreadCrumb = () => {
         </div>
     )
 };
-export default BreadCrumb
+export default BreadCrumb 
