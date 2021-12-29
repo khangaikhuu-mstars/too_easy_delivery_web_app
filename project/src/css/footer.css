@@ -22,21 +22,16 @@ footer p{
 footer h4{
     font-size: 14px;
     font-weight: 700;
-    margin-top: 36px;
-    margin-left: 25px;
-    margin-bottom: 29px;
 }
 
 .footer_icon{
     color: #fff;
     text-decoration: none;
-    /* background-color: #778899; */
     font-size: 20px;
   }
 
 
   .social{
-      margin-top: 50px;
       padding-bottom: 14px;
   }
 
@@ -48,12 +43,18 @@ footer h4{
       font-weight: 400;
   }
 
-  .privacy_policy{
-      margin-left: 13px;
+
+  @media screen and (min-width: 740px){
+    .privacy_policy p{
+        font-size: 12px !important;
+    }
+    .footer_bottom_section{
+        border-top: #fff solid 1px;
+    }
+    
   }
-  .copyright{
-      font-size: 12px;
-      margin-bottom: 65px;
-      margin-top: 20px;
-      margin-right: 13px;
-  }
+@media screen and (max-width : 739px) {
+    .social{
+        border-bottom: #fff solid 1px;
+    }
+}
