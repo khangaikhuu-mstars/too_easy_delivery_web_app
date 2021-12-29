@@ -94,7 +94,7 @@
     margin: 0;
   }
 }
-@media (min-width: 835px) {
+@media (min-width: 835px) and (max-width: 1440px){
   .Background_img {
     background: hsla(22, 88%, 55%, 1);
 

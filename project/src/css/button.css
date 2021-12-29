@@ -1,0 +1,81 @@
+:root {
+    --colorFilled: #F17228;
+    --outlined:#FFFFFF
+}
+.btn {
+    font-family: "Poppins";
+    font-weight: 400px;
+    border-radius: 0;
+}
+                /* Button Style  */
+.btn--colorFilled {
+    background-color: var(--colorFilled);
+    color: var(--outlined);
+}
+.btn--outlined {
+    background-color: var(--outlined);
+    color: var(--colorFilled);
+    border-color: var(--colorFilled);
+}
+.btn--noneBorderRadius {
+    background-color: var(--colorFilled);
+    color: var(--outlined);
+    border-radius: none;
+    width: 100%;
+}
+                /* Button Size */
+
+.btn--small--mobile{
+    padding: 10px;
+    font-size: 14px;
+} 
+.btn--medium--mobile{
+    width: 335px;
+    color: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn--large--mobile{
+  
+}
+.btn--small--tab{
+    width: 65px;
+    color: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+.btn--medium--tab{
+    width: 340px;
+    color: 1rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: none ;
+    /* border-radius: 20px; */
+}
+
+
+.btn--bordered--static{
+    width: 340px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px ;
+    
+}
+.btn--bordered--flex{
+
+}
+.btn--nonBordered--static{
+    width: 340px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0;
+}
+.btn--nonBordered--flex {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0;
+}
