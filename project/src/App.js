@@ -1,3 +1,5 @@
+import './css/footer.css'
+import Footer from './components/Footer';
 import './App.css';
 import React from 'react';
 import InfoPanel from './components/InfoPanel';
@@ -10,6 +12,7 @@ function App() {
     <div>
       {/* <Slider/> */}
       <InfoPanel/>
+      <Footer />
     </div>
     )
 }
