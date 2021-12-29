@@ -1,16 +1,15 @@
 import React from "react";
 import "../css/button.css";
-
-const STYLES = ["btn--colorFilled", "btn--outlined"];
+const STYLES = ["btn--colorFilled", "btn--outlined","btn--withArrow"];
 const SIZES = [
+  "btn--withChevronArrow",
   "btn--bordered--static",
   "btn--bordered--flex",
   "btn--nonBordered--static",
   "btn--nonBordered--flex",
   
 ];
-
-export const Button = ({
+export const ButtonComponent = ({
   children,
   type,
   onClick,
