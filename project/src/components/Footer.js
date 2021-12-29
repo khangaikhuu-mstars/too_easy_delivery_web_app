@@ -1,13 +1,14 @@
-
+import logo from "../images/logo.svg"
 
 function Footer(){
 
     const year = new Date().getFullYear();
     return(
     
-    
+
+
         <footer>
-            <h4 className=''><img src="../images/logo.svg"/>Food Delivery</h4>
+            <h4 className=''><img src={logo}/>Food Delivery</h4>
             <div className='container'>
             <div className="row">
                 <div className="col-6">
@@ -22,7 +23,7 @@ function Footer(){
                 </div>
             </div>
             <div className='social text-center'>
-                <a className="footer_icon " href="https://www.facebook.com"><i className="fab fa-facebook"></i></a>
+                <a className="footer_icon" href="https://www.facebook.com"><i className="fab fa-facebook"></i></a>
                 <a className="footer_icon mx-3" href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
                 <a className="footer_icon" href="https://www.twitter.com"><i className="fab fa-twitter"></i></a>
             </div>
