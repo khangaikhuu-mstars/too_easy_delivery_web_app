@@ -41,6 +41,7 @@
     margin: 0;
   }
 }
+                /* Tablet Version Style  */
 @media (min-width: 769px) and (max-width: 991px) {
   .Background_img {
     background: hsla(22, 88%, 55%, 1);
@@ -93,6 +94,7 @@
     margin: 0;
   }
 }
+                /* Web Version Style  */
 @media (min-width: 992px) {
   .Background_img {
     background: hsla(22, 88%, 55%, 1);
