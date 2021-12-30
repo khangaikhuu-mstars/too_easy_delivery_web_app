@@ -5,15 +5,19 @@ import searchLogo from '../image/search.svg'
 import adminLogo from '../image/admin.svg'
 import button from '../image/button.svg'
 import basket from '../image/basketIcon.svg'
+import searchIcon from '../image/searchIcon.svg'
 function Menu() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="md" className="mainss">
             <Container className="text-align-center">
-                <div>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+                <div className="del">
+                    <a href="" className="text-decoration-none">
                     <img src={foodDeliveryLogo}></img>
-                    <Navbar.Brand href="#" className='fooddelivery orangeFont'>Food Delivery</Navbar.Brand>
+                    <p1 className='fooddelivery orangeFont poppins text-decoration-none'>Food Delivery</p1>
+                    </a>
                 </div>
-                <Navbar.Toggle aria-controls="navbarScroll" />
+        
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="me-auto my-2 my-lg-0"
@@ -21,12 +25,15 @@ function Menu() {
                         navbarScroll
                     >
                         <div className="d-flex">
-                            <Nav.Link href="#action1" className="menu orangeFont">Нүүр</Nav.Link>
-                            <Nav.Link href="#action2" className="menu">Хоолны цэс</Nav.Link>
-                            <Nav.Link href="#action2" className="menu">Хүргэлтийн бүс</Nav.Link>
+                            <Nav.Link href="#action1" className="menu orangeFont poppins">НҮҮР</Nav.Link>
+                            <Nav.Link href="#action2" className="menu poppins black">ХООЛНЫ ЦЭС</Nav.Link>
+                            <Nav.Link href="#action2" className="menu poppins black">ХҮРГЭЛТИЙН БҮС</Nav.Link>
                         </div>
                     </Nav>
-                    <Form >
+                </Navbar.Collapse>
+                <div className="d-flex">
+                    <div className="px-5">
+                    <Form className="sform">
                         <FormControl
                             type="search"
                             placeholder="Хайх"
@@ -34,15 +41,17 @@ function Menu() {
                             aria-label="Search"
                         />
                     </Form>
-                </Navbar.Collapse>
-                <div className="d-flex">
-
-                    <div><img src={basket}></img>
-                        <a href="#action2" className="basketLogo orangeFont">Сагс</a>
+                    </div>
+                    <div className="searchIcon">
+                        <img src={searchIcon}></img>
+                    </div>
+                    <div className="px-3">
+                        <img src={basket} className="basketLogo"></img>
+                        <a href="#action2" className="basket orangeFont poppins px-1">Сагс</a>
                     </div>
                     <div>
-                        <img src={adminLogo}></img>
-                        <a href="#action2" className="orangeFont adminLogo">Нэвтрэх</a>
+                        <img src={adminLogo} className="adminLogo"></img>
+                        <a href="#action2" className="orangeFont admin poppins px-1 text-decoration-none">Нэвтрэх</a>
                     </div>
 
                 </div>

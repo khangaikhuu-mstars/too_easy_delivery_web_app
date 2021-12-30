@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <Menu />
-      <InfoPanel/>
       <SliderWeb />
+      <InfoPanel></InfoPanel>
       <Footer />
     </div>
   )

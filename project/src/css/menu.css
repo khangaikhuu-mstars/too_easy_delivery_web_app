@@ -1,46 +1,156 @@
-
-.orangeFont{
-     color: #F17228 !important;
+body {
+    font-family: 'Poppins', sans-serif !important;
 }
-.adminLogo{
+
+.orangeFont {
+    color: #F17228 !important;
+}
+
+.admin {
     width: 13px;
     height: 14px;
     left: 86.5px;
     top: 8px;
-    text-decoration: none;
 }
-.button{
+
+.button {
     width: 20px;
     height: 20px;
     top: 5px;
     left: 5px;
     position: static;
 }
-.basketLogo{
+
+.basket {
     width: 16px;
     height: 14px;
     top: 8px;
     left: 9.5px;
     text-decoration: none;
 }
-.menu{
+
+.menu {
     margin: 0px 10px;
 }
-.fooddelivery{
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    width: 126px;
-    height: 30px;
-    left: 5px;
-    top: 5px;
-    margin: 0px 10px;
+
+.black {
+    color: #000000;
 }
-.searchForm{
+
+.fooddelivery {
+
+    margin: 0px 10px;
+    text-decoration: none !important;
+
+}
+
+.searchForm {
     width: 235px;
     height: 32px;
     top: 12px;
-    left: 882px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FBC5A6;
+    box-sizing: border-box;
+}
+
+.mainss {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.searchIcon {
+    width: 18px;
+    height: 18px;
+}
+
+.last {
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .sform {
+        display: none;
+    }
+
+    .fooddelivery {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .basket{
+        display:none
+    }
+    .admin{
+        display: none;
+    }
+    .basketLogo{
+        display: none;
+    }
+}
+
+@media(min-width:769px) and (max-width:991px) {
+    .sform {
+        display: none;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .admin {
+        display: none;
+    }
+
+    .searchIcon {
+        display: show
+    }
+
+    .fooddelivery {
+        width: 117px;
+        height: 20px;
+        left: 6px;
+        top: 7.5px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+}
+@media(min-width:1000px) and (max-width:1200px){
+
+}
+@media(min-width:992px) {
+    .searchIcon {
+        display: none
+    }
+
+    .fooddelivery {
+        width: 126px;
+        height: 20px;
+        left: 5px;
+        top: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .basket {
+        width: 37px;
+        height: 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .admin {
+        width: 66px;
+        height: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+    }
 }
