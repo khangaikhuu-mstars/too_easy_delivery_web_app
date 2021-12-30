@@ -94,7 +94,7 @@
     margin: 0;
   }
 }
-                /* Web Version Style  */
+                  /* Web Version Style  */
 @media (min-width: 992px) {
   .Background_img {
     background: hsla(22, 88%, 55%, 1);

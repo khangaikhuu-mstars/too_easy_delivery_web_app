@@ -5,6 +5,7 @@ import InfoPanel from './components/InfoPanel';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
+import BreadCrumbComponent from './components/BreadCrumbComponent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SliderWeb />
       <InfoPanel />
       <Footer />
+      <BreadCrumbComponent></BreadCrumbComponent>
     </div>
   )
 }
