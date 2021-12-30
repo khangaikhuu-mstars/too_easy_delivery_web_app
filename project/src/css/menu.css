@@ -1,43 +1,13 @@
-.foodDelivery{
-    color: #F17228 ;
-    font-weight: bold;
-    font-size: 14px;
-    width: 105px;
-    height: 25px;
-    left: 24.52%;
-    right: 8.6%;
-    top: 18.75%;
-    bottom: 18.75;
-    position: static;
-    line-height: 21px;
-    align-items: center;
-    text-align: center;
-    font-family: Poppins;
-    order: 1;
-}
-.foodDeliveryLogo{
-    background-image: url(../image/fooddelivery.svg);
-    width: 25px;
-    height: 25px;
-    top: 7.5px;
-    left: 13.5px;
-    order: 0;
-}
-.searchLogo{
-    width: 18px;
-    height: 20px;
-    left: 5px;
-    top: 5px;
-    position: static;
-    margin: 10px 0px;
+
+.orangeFont{
+     color: #F17228 !important;
 }
 .adminLogo{
-    width: 16px;
-    height: 18px;
-    left: 5px;
-    top: 5px;
-    position: static;
-    margin: 10px 0px;
+    width: 13px;
+    height: 14px;
+    left: 86.5px;
+    top: 8px;
+    text-decoration: none;
 }
 .button{
     width: 20px;
@@ -46,4 +16,31 @@
     left: 5px;
     position: static;
 }
-
+.basketLogo{
+    width: 16px;
+    height: 14px;
+    top: 8px;
+    left: 9.5px;
+    text-decoration: none;
+}
+.menu{
+    margin: 0px 10px;
+}
+.fooddelivery{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    width: 126px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    margin: 0px 10px;
+}
+.searchForm{
+    width: 235px;
+    height: 32px;
+    top: 12px;
+    left: 882px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
