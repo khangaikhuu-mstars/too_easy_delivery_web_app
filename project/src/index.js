@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/menu.css'
-import './css/slider.css';
+import './css/sliderWeb.css';
 
 ReactDOM.render(
   <React.StrictMode>

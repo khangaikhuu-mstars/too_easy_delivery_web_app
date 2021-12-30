@@ -1,25 +1,10 @@
-import { Stack, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import '../../src/css/Info_panel.css';
 const InfoPanel = () => {
   return (
-    // <div className="infoPanel">
-    //   <div className="infoBox">
-    //     <img src={timeSVG}></img>
-    //   </div>
-    //   <div className="infoBox">
-
-    //   </div>
-    //   <div className="infoBox">
-
-    //   </div>
-
-    // </div>
-
-    <Container className="Info_panel">
-      <div className="Background_img">
-        <Row >
-          <Col sm={4} className="Info_box">
+    <div className="mainContainer" >
+        <div className="Background_img">
+        <div className="Info_panel">
+          <div className="Info_box">
             <svg
               width="40"
               height="40"
@@ -44,8 +29,8 @@ const InfoPanel = () => {
               <h2>Шуурхай хүргэлт</h2>
               <p>30 минутанд таны гарт</p>
             </div>
-          </Col>
-          <Col sm={4} className="Info_box">
+          </div>
+          <div className="Info_box">
             <svg
               width="40"
               height="40"
@@ -69,8 +54,8 @@ const InfoPanel = () => {
               <h2>Эрүүл баталгаат орц</h2>
               <p>Хамгийн чанартайг танд</p>
             </div>
-          </Col>
-          <Col sm={4} className="Info_box">
+          </div>
+          <div className="Info_box">
             <svg
               width="43"
               height="40"
@@ -94,10 +79,10 @@ const InfoPanel = () => {
               <h2>Өргөн сонголт</h2>
               <p>Хамгийн онцгойг танд</p>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </div>
-    </Container>
+    </div>
   );
 };
 export default InfoPanel;

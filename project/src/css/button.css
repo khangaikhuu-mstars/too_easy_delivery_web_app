@@ -1,0 +1,55 @@
+:root {
+    --colorFilled: #F17228;
+    --outlined:#FFFFFF
+}
+.btn {
+    font-family: "Poppins";
+    font-weight: 400px;
+    border-radius: 0;
+}
+                /* Button Style  */
+.btn--colorFilled {
+    background-color: var(--colorFilled);
+    color: var(--outlined);
+}
+.btn--outlined {
+    background-color: var(--outlined);
+    color: var(--colorFilled);
+    border-color: var(--colorFilled);
+}
+.btn--withArrow {
+    background-color: var(--outlined);
+    color: var(--colorFilled);
+    border: none;
+}
+                /* Button Size */
+.btn--bordered--static{
+    width: 180px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px ;
+}
+.btn--bordered--flex{
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+}
+.btn--nonBordered--static{
+    width: 340px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0;
+}
+.btn--nonBordered--flex {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0;
+}
+.btn--withChevronArrow {
+    background-image: url(../../public/icons/chevron\ left.svg);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 15px;
+}
