@@ -5,15 +5,13 @@ import InfoPanel from './components/InfoPanel';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
-import BreadCrumbComponent from './components/BreadCrumbComponent';
 
 function App() {
   return (
     <div>
-      <SliderWeb /> 
+      <SliderWeb />
       <InfoPanel />
-      <BreadCrumbComponent></BreadCrumbComponent>
-       <Footer />
+      <Footer />
     </div>
   )
 }
