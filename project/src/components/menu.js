@@ -10,7 +10,7 @@ function Menu() {
     return (
         <Navbar expand="md" className="mainss">
             <Container className="text-align-center">
-            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Toggle aria-controls="navbarScroll" className="changecolor" />
                 <div className="del">
                     <a href="" className="text-decoration-none">
                     <img src={foodDeliveryLogo}></img>

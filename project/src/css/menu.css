@@ -43,7 +43,9 @@ body {
     text-decoration: none !important;
 
 }
-
+.changecolor{
+    border-color:orange ;
+}
 .searchForm {
     width: 235px;
     height: 32px;
@@ -67,7 +69,9 @@ body {
 .last {
     justify-content: space-between;
 }
-
+.navbar-light .navbar-toggler-icon{
+    filter: invert(67%) sepia(42%) saturate(6622%) hue-rotate(345deg) brightness(98%) contrast(92%);
+}
 @media (max-width:768px) {
     .sform {
         display: none;
