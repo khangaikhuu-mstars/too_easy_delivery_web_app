@@ -8,7 +8,7 @@ import '../src/css/InfoPanel.css'
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <SliderWeb />
       <InfoPanel />
       <Footer />
