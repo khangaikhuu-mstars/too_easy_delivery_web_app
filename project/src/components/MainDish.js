@@ -6,8 +6,11 @@ function MainDish() {
     return (
         <div className="mainDish container">
             <h2 className="title"> Үндсэн хоол</h2>
-            <ButtonComponent className="onWeb" buttonStyle="btn--colorFilled" buttonSize="">Бүгдийг харах</ButtonComponent>
-           <ButtonComponent className="arrowButton" buttonStyle='btn--withArrow' buttonSize='btn--withChevronArrow' ></ButtonComponent>
+                <button className="mainDishButton" type="button">
+                    <h2 className="onWeb">Бүгдийг харах</h2> 
+                    <span className="rightArrow">&#62;</span>
+                </button>
+
         </div>
     )
 }

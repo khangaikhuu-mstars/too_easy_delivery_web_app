@@ -17,7 +17,7 @@ function App() {
       <Menu />
       <SliderWeb />
       <InfoPanel></InfoPanel>
-      {/* <CardComp/>  */}
+      <CardComp/> 
       <MainDish/>
       <Footer />
     </div>
