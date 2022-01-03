@@ -32,7 +32,7 @@ function Menu() {
                     </Nav>
                 </Navbar.Collapse>
                 <div className="d-flex">
-                    <div className="px-5">
+                    <div>
                     <Form className="sform">
                         <FormControl
                             type="search"
