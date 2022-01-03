@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './components/Footer';
 import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
+import CardComp from ".components/CardComp";
 import Menu from './components/menu';
 import './css/footer.css'
 import './App.css';
@@ -16,6 +17,7 @@ function App() {
       <SliderWeb />
       <InfoPanel></InfoPanel>
       <Footer />
+      <CardComp/>
     </div>
   )
 }
