@@ -8,6 +8,7 @@ import './App.css';
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
+
 function App() {
   return (
     <div>
