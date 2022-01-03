@@ -2,10 +2,11 @@ import React from 'react';
 // import Button from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import FoodsData from '../data/foods.json'
+import '../css/cardComp.css'
 
 const CardComp = () => {
         return (
-            <div>
+            <div className = 'mainCard'>
                 {FoodsData.map((foodsDetail, index) => {
                     return(
                         <div>
