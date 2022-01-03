@@ -70,12 +70,10 @@ body {
 .navbar-light .navbar-toggler-icon{
     filter: invert(67%) sepia(42%) saturate(6622%) hue-rotate(345deg) brightness(98%) contrast(92%);
 }
-
 @media (max-width:768px) {
     .sform {
         display: none;
     }
-
     .fooddelivery {
         font-weight: bold;
         font-size: 14px;
@@ -89,12 +87,13 @@ body {
     .basketLogo{
         display: none;
     }
-    .collapse.navbar-collapse{
-        display: none;
+    .navbar-collapse{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: 10vh;
     }
-    .navbar-nav{
-        display: none;
-    }
+    
 }
 
 @media(min-width:769px) and (max-width:991px) {

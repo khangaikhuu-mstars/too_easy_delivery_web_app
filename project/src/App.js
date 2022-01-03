@@ -8,13 +8,14 @@ import './App.css';
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Menu />
-      <SliderWeb />
-      <InfoPanel></InfoPanel>
-      <Footer />
+        <Menu />
+        <SliderWeb />
+        <InfoPanel></InfoPanel>
+        <Footer />
     </div>
   )
 }
