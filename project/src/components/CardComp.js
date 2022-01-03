@@ -1,23 +1,30 @@
 import React from 'react';
 // import Button from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-import img from './../images/meals.image/food/avocado_salad.png'
+import FoodsData from '../data/foods.json'
 
+const CardComp = () => {
+        return (
+            <div>
+                {FoodsData.map((foodsDetail, index) => {
+                    return(
+                        <div>
+                            <Card className='cardComponent' style={{ width: '18rem' } }>
+                            <Card.Body>
+                                <Card.Img variant="top" src={foodsDetail.thumb_img} />
+                                <Card.Title>{foodsDetail.name}</Card.Title>
+                                <Card.Text style={{ color: '#f17228'}}>
+                                {foodsDetail.price}
+                                </Card.Text>
+                            </Card.Body>
+                            </Card>
+                        </div>
+                    )
+                })}
+            </div>
 
-const CardComp = (props) => {
-    return (
-        <Card className='cardComponent' style={{ width: '18rem' } }>
-            <Card.Img variant="top" src={img} />
-            <Card.Body>
-                <Card.Title>Avocado Salad</Card.Title>
-                <Card.Text style={{ color: '#f17228'}}>
-                {/* {6,800₮} */}
-                {props.price}
-                </Card.Text>
-            </Card.Body>
-        </Card>
+)
 
-    )
 }
 
 
