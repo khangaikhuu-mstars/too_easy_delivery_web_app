@@ -34,12 +34,12 @@ footer p{
 }
 
   /* Media query for border lines*/
-  @media screen and (max-width : 768px) {
+  @media screen and (max-width : 767px) {
       .social{
           border-bottom: #fff solid 1px;
       }
   }
-  @media screen and (min-width: 769px){
+  @media screen and (min-width: 768px){
     .privacy_policy p{
         font-size: 12px !important;
     }
