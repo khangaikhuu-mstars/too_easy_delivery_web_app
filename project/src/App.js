@@ -11,8 +11,8 @@ import '../src/css/menu.css'
 function App() {
   return (
     <div>
-      <Menu />
-      <SliderWeb />
+      {/* <Menu />
+      <SliderWeb /> */}
       <InfoPanel></InfoPanel>
       <Footer />
     </div>
