@@ -5,6 +5,7 @@
     align-items: center;
     margin-left: 0 auto;
     border-left: 8px solid hsl(22, 88%, 55%);
+    padding: 0 0.5rem;
 }
 .mainDishButton {
     background-color: #F17228;
