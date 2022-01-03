@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 5%;
-    border-left: 8px solid #F17228;
+    margin-left: 0 auto;
+    border-left: 8px solid hsl(22, 88%, 55%);
 }
 .mainDishButton {
     background-color: #F17228;
@@ -55,6 +55,7 @@
     }
     .rightArrow {
         font-size: 1.5rem;
+        padding: 0;
     }
 
 }

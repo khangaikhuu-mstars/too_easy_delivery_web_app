@@ -17,7 +17,6 @@ function App() {
       <Menu />
       <SliderWeb />
       <InfoPanel></InfoPanel>
-      <CardComp/> 
       <MainDish/>
       <Footer />
     </div>
