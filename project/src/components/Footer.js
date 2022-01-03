@@ -4,7 +4,7 @@ function Footer(){
     const year = new Date().getFullYear();
     return(
         <footer>
-            <div className='container mb-5 mb-md-3'>
+            <div className='container pb-4 pt-4'>
                 <div className="row mt-md-4 mt-5">
                     <h4 className='col-12 col-xs-12 col-md-4 col-lg-3'><img src={logo}/>Food Delivery</h4>
                     <div className="col-6 cols-xs-6 col-md-4 col-lg-2">
