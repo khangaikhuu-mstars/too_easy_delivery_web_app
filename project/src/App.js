@@ -15,6 +15,7 @@ function App() {
         <Menu />
         <SliderWeb />
         <InfoPanel></InfoPanel>
+        <Footer></Footer>
     </div>
   )
 }

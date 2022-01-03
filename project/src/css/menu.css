@@ -64,16 +64,38 @@ body {
     width: 18px;
     height: 18px;
 }
+.menufood{
+    width: 35px;
+    height: 35px;
 
+    left: 10px;
+}
+.division{
+    width: 335px;
+    top: 110px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex-direction: column;
+    align-self: center;
+}
+.line{
+    border-bottom: 1px solid #f2994A;
+    margin: 10px 0;
+}
 .last {
     justify-content: space-between;
 }
 .navbar-light .navbar-toggler-icon{
     filter: invert(67%) sepia(42%) saturate(6622%) hue-rotate(345deg) brightness(98%) contrast(92%);
 }
-navbar-light .navbar-toggler-icon {
-    background-image: url();
+.tses{
+    font-size: 16px;
+    
 }
+
 @media (max-width:768px) {
     .sform {
         display: none;
@@ -109,15 +131,14 @@ navbar-light .navbar-toggler-icon {
     .navbar-collapse .searchIcon{
         display: none;
     }
-    .navbar-collapse .nuur{
-        display: none;
-    }
+
     .navbar-collapse .collapse1{
         display: block;
     }
-    .navbar-collapse .collapse0{
+    .navbar-collapse .haha{
         display: none;
     }
+
 }
 
 @media(min-width:769px) and (max-width:991px) {
