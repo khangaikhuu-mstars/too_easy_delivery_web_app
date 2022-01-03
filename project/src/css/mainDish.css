@@ -21,6 +21,9 @@
 .rightArrow {
     font-size: 2rem;
 }
+.title {
+    margin-bottom: 0;
+}
 @media (max-width:768px){
     .onWeb {
         display: none;
