@@ -8,13 +8,14 @@
 } */
 
 
-form{  
-    position: absolute;
-    width: 80%;
-    height: 40px;
-    top: 250px;
+form .container{
+    font-size: 14px;
+}
+
+.container{
     margin: 0 auto;
 }
+
 
 .form-control{
     background: #FFFFFF;
@@ -23,3 +24,17 @@ form{
     border-radius: 10px !important;
 }
 
+
+@media  screen and (max-width: 767px) {
+    .container{
+        width: 100%;
+        max-width: 335px;
+    }
+}
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+        max-width: 335px;
+    }
+}
