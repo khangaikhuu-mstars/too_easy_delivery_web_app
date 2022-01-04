@@ -1,5 +1,5 @@
 
-
+import line from "../images/line.svg";
 
 
 function FormLogin(){
@@ -9,14 +9,17 @@ return (
             <div className="ps-2">&#60;</div>
             <div className="flex-grow-1 align-self-center text-align-center">НЭВТРЭХ</div>
         </div>
+        <div className="form-md-header px-0 container d-none d-md-block">
+            <h5><img src={line}/> НЭВТРЭХ</h5>
+        </div>
         <form>
             <div className="container px-0">
                 <div className="form-email">
-                    <label for="exampleInputEmail1" className="form-label">И-мэйл</label>
+                    <label for="exampleInputEmail1" className="form-label ps-2">И-мэйл</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="И-мэйл хаягаа оруулна уу."/>
                 </div>
                 <div className="form-password mt-3">
-                    <label for="exampleInputPassword1" className="form-label">Нууц үг</label>
+                    <label for="exampleInputPassword1" className="form-label ps-2">Нууц үг</label>
                     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Нууц үгээ оруулна уу."/>
                 </div>
                 <div className="forget-password text-end">
