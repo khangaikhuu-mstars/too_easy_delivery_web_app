@@ -3,19 +3,31 @@ import Footer from './components/Footer';
 import SliderWeb from './components/sliderWeb';
 import InfoPanel from './components/InfoPanel';
 import Menu from './components/menu';
+import MainDish from './components/MainDish';
+import SaladAndDesert from './components/SaladAndDesert';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Delivery from './components/delivery';
+import Main from './components/main'
+import Home from './components/home';
 function App() {
   return (
-    <div>
-      <Menu />
-      <SliderWeb />
-      {/* <InfoPanel></InfoPanel> */}
-      {/* <Footer /> */}
-    </div>
+
+    <BrowserRouter>
+      <div>
+        <Menu />
+        <Switch>
+          <Route path='/home' component={Home}></Route>
+          <Route path='/delivery' component={Delivery}></Route>
+          <Route path='/main' component={Main}></Route>
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 
