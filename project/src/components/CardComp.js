@@ -1,12 +1,12 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import FoodsData from '../data/foods.json'
 import '../css/cardComp.css'
 
-const CardComp = () => {
+const CardComp = (props) => {
   return (
     <div className="mainCard">
-      {FoodsData.map((foodsDetail, index) => {
+      {props.data.map((foodsDetail) => {
+        console.log(foodsDetail)
         return (
           <div>
             <Card className="cardComponent" style={{ width: '16rem' }}>
