@@ -6,7 +6,7 @@ import '../css/cardComp.css'
 const CardComp = () => {
   return (
     <div className="mainCard">
-      {FoodsData.map((foodsDetail, index) => {
+      {FoodsData.map((foodsDetail) => {
         return (
           <div>
             <Card className="cardComponent" style={{ width: '16rem' }}>
