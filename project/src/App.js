@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './components/Footer';
-import SliderWeb from './components/sliderWeb';
+import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
 import Menu from './components/menu';
 import MainDish from './components/MainDish';

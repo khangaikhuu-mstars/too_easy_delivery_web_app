@@ -101,8 +101,8 @@
     /* slider page 1 image position */
     .sliderPageImageWeb1 {
         position: absolute;
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 80%;
         top:10%;
         background-image: url(../images/sliderPageImage1Web.svg);
         background-size: cover;
@@ -113,8 +113,8 @@
     /* slider page 2 image position */
     .sliderPageImageWeb2 {
         position: absolute;
-        width: 80%;
-        height: 80%;
+        width: 89%;
+        height: 60%;
         top:15%;
         left: 40%;
         background-image: url(../images/sliderPageImage2Web.svg);
@@ -125,8 +125,8 @@
 
     .sliderPage1text1Web {
         color: #F17228;
-        width: 384px;
-        height: 120px;
+        width: 80%;
+        height: 30%;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
@@ -139,8 +139,8 @@
 
     .sliderPage1text2Web {
         color: #4D2000;
-        width: 384px;
-        height: 64px;
+        width: 80%;
+        height: 10%;
         font-weight: 700;
         font-weight: bold;
         font-family: 'Comfortaa';
@@ -155,7 +155,6 @@
 
     .sliderPage3textWeb {
         color: #FFFFFF;
-        height: 82.91px;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
@@ -167,13 +166,12 @@
         font-size: 40px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
         justify-content:flex-end;
-        padding-top: 100px;
-        padding-right: 100px;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 
     .sliderPage2textWeb {
         color: #FFFFFF;
-        height: 82.91px;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
@@ -185,12 +183,12 @@
         font-size: 40px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
         justify-content:flex-end;
-        padding-top: 100px;
-        padding-right: 100px;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 
     .borderLineWeb {
-        width: 383px;
+        width: 80%;
         height: 0px;
         border: 2px solid rgba(241, 114, 40, 0.6);
     }
@@ -207,15 +205,22 @@
         height: 40vh;
         display: flex;
     }
+    .flexPage1{
+        display: flex;
+        justify-content: space-between;
+    }
 
     .imageSidepage1 {
         position: relative;
+        height: 400px;
+        width: 300px;
+        padding-top:30%;
         
     }
 
     .textSidepage1 {
         position: relative;
-        margin-top: 100px;
+        margin-top: 10%;
        
     }
 
@@ -225,13 +230,6 @@
         height: 40vh;
         position: relative;
 
-    }
-
-    /* Web version slider size */
-    .sliderWeb {
-        width: 100%;
-        height: 40vh;
-        position: relative;
     }
 
     /* slider image size */
@@ -265,13 +263,12 @@
     }
 
 
-
     /* button color */
     .carousel-indicators [data-bs-target] {
         box-sizing: content-box;
         flex: 0 1 auto;
-        width: 8px;
-        height: 5px;
+        width: 10px;
+        height: 8px;
         padding: 0;
         margin-right: 3px;
         margin-left: 3px;
@@ -288,7 +285,8 @@
     /* active button color */
     .carousel-indicators [data-bs-target].active {
         background-color: #F17228;
-        width: 12px;
+        width: 21px;
+        height: 8px;
         border-radius: 5px !important;
         border: 0;
     }
@@ -296,11 +294,9 @@
     /* slider page 1 image position */
     .sliderPageImageWeb1 {
         position: absolute;
-        width: 218.03px;
-        height: 257.38px;
-        top: 44.53px;
-        left: 67px;
-        right: 548.97px;
+        width: 80%;
+        height: 80%;
+        top:10%;
         background-image: url(../images/sliderPageImageTab1.svg);
         background-size: cover;
         background-position: center center;
@@ -310,11 +306,10 @@
     /* slider page 2 image position */
     .sliderPageImageWeb2 {
         position: absolute;
-        width: 246.63px;
-        height: 216.88px;
-        top: 78.7px;
-        left: 154.57px;
-        right: 432.8px;
+        width: 89%;
+        height: 60%;
+        top:15%;
+        left: 40%;
         background-image: url(../images/sliderPageImageTab2.svg);
         background-size: cover;
         background-position: center center;
@@ -323,44 +318,36 @@
 
     .sliderPage1text1Web {
         color: #F17228;
-        width: 340px;
-        height: 82.91px;
+        width: 100%;
+        height: 45%;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
         text-align: right;
         line-height: 90%;
-        display: flex;
         align-items: center;
         letter-spacing: 0.01em;
-        font-size: 40px;
+        font-size: 55px;
     }
 
     .sliderPage1text2Web {
         color: #4D2000;
-        width: 250.48px;
-        height: 44.42px;
+        width: 100%;
+        height: 10%;
         font-weight: 700;
         font-weight: bold;
         font-family: 'Comfortaa';
         font-style: normal;
         text-align: right;
         line-height: 120%;
-        display: flex;
         align-items: center;
         letter-spacing: 0.01em;
-        font-size: 18px;
+        font-size: 22px;
+        padding-top: 5%;
     }
 
     .sliderPage3textWeb {
         color: #FFFFFF;
-        position: absolute;
-        width: 340px;
-        height: 82.91px;
-        top: 83.9px;
-        left: 427px;
-        right: 67px;
-        bottom: 231.2px;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
@@ -370,18 +357,14 @@
         align-items: center;
         letter-spacing: 0.01em;
         font-size: 40px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45)
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        justify-content:flex-end;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 
     .sliderPage2textWeb {
         color: #FFFFFF;
-        position: absolute;
-        width: 340px;
-        height: 82.91px;
-        top: 83.9px;
-        left: 427px;
-        right: 67px;
-        bottom: 213.2px;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
@@ -391,34 +374,58 @@
         align-items: center;
         letter-spacing: 0.01em;
         font-size: 40px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45)
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        justify-content:flex-end;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 
     .borderLineWeb {
-        position: absolute;
-        width: 250.48px;
+        width: 100%;
         height: 0px;
-        left: 516.52px;
-        right: 67px;
-        top: 182.57px;
-        bottom: 197.4px;
-        border: 1.40027px solid rgba(241, 114, 40, 0.6);
+        border: 2px solid rgba(241, 114, 40, 0.6);
     }
 }
 
 @media (max-width: 768px) {
 
-    /* mobile version slider size */
+    .centerContent {
+        position: relative;
+        margin: 0 auto;
+        height: 20vh;
+        display: flex;
+    }
+    .flexPage1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imageSidepage1 {
+        position: relative;
+        height: 200px;
+        width: 160px;
+        margin-top: 7%
+    }
+
+    .textSidepage1 {
+        position: relative;
+        margin-top: 10%;
+       
+    }
+
+    /* Web version slider size */
     .sliderWeb {
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         position: relative;
+
     }
 
     /* slider image size */
+
     .sliderWebImage {
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         background-image: url(../images/sliderBackMobile.png);
         background-size: cover;
         background-position: center center;
@@ -427,7 +434,7 @@
 
     .sliderWebImage2 {
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         background-image: url(../images/slider2Mobile.png);
         background-size: cover;
         background-position: center center;
@@ -436,21 +443,21 @@
 
     .sliderWebImage3 {
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         background-image: url(../images/slider3Mobile.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-    }
 
+    }
 
 
     /* button color */
     .carousel-indicators [data-bs-target] {
         box-sizing: content-box;
         flex: 0 1 auto;
-        width: 8px;
-        height: 5px;
+        width: 10px;
+        height: 8px;
         padding: 0;
         margin-right: 3px;
         margin-left: 3px;
@@ -467,7 +474,8 @@
     /* active button color */
     .carousel-indicators [data-bs-target].active {
         background-color: #F17228;
-        width: 12px;
+        width: 21px;
+        height: 8px;
         border-radius: 5px !important;
         border: 0;
     }
@@ -475,108 +483,89 @@
     /* slider page 1 image position */
     .sliderPageImageWeb1 {
         position: absolute;
-        width: 109.04px;
-        height: 131.95px;
-        top: 49.03px;
-        bottom: 69.03px;
-        left: 37.93px;
-        right: 228.03px;
+        width: 80%;
+        height: 80%;
+        top:10%;
         background-image: url(../images/sliderPageImage1Mobile.svg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     /* slider page 2 image position */
     .sliderPageImageWeb2 {
         position: absolute;
-        width: 123.34px;
-        height: 111.18px;
-        top: 66.54px;
-        bottom: 72.27px;
-        left: 81.73px;
-        right: 169.93px;
+        width: 89%;
+        height: 60%;
+        top:15%;
+        left: 40%;
         background-image: url(../images/sliderPageImage2Mobile.svg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .sliderPage1text1Web {
         color: #F17228;
-        position: absolute;
-        width: 157px;
-        height: 60px;
-        top: 50px;
-        left: 198px;
-        right: 20px;
-        bottom: 140px;
+        width: 100%;
+        height: 40%;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
         text-align: right;
-        line-height: 120%;
-        display: flex;
+        line-height: 90%;
         align-items: center;
         letter-spacing: 0.01em;
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .sliderPage1text2Web {
         color: #4D2000;
-        position: absolute;
-        width: 157px;
-        height: 40px;
-        top: 110px;
-        left: 198px;
-        right: 20px;
-        bottom: 100px;
+        width: 100%;
+        height: 20%;
         font-weight: 700;
         font-weight: bold;
         font-family: 'Comfortaa';
         font-style: normal;
         text-align: right;
         line-height: 120%;
-        display: flex;
         align-items: center;
         letter-spacing: 0.01em;
-        font-size: 12px;
-    }
-
-    .sliderPage2textWeb {
-        color: #FFFFFF;
-        position: absolute;
-        width: 157px;
-        height: 60px;
-        top: 50px;
-        left: 198px;
-        right: 20px;
-        bottom: 140px;
-        font-weight: 600;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        text-align: right;
-        line-height: 120%;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.01em;
-        font-size: 22px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45)
+        font-size: 15px;
+        padding-left: 10%;
     }
 
     .sliderPage3textWeb {
         color: #FFFFFF;
-        position: absolute;
-        width: 157px;
-        height: 40px;
-        top: 50px;
-        left: 198px;
-        right: 20px;
-        bottom: 160px;
         font-weight: 600;
         font-family: 'Poppins';
         font-style: normal;
         text-align: right;
-        line-height: 120%;
+        line-height: 90%;
         display: flex;
         align-items: center;
         letter-spacing: 0.01em;
-        font-size: 22px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45)
+        font-size: 40px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        justify-content:flex-end;
+        padding-top: 10%;
+        padding-right: 10%;
+    }
+
+    .sliderPage2textWeb {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-style: normal;
+        text-align: right;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+        font-size: 40px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        justify-content:flex-end;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 }
