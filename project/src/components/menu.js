@@ -28,9 +28,9 @@ function Menu() {
                                 style={{ maxHeight: '100px' }}
                             >
                                 <div className="d-flex tses1">
-                                    <NavLink to='/' className="menu nuur orangeFont poppins">НҮҮР</NavLink>
-                                    <NavLink to='/main' className="menu poppins black">ХООЛНЫ ЦЭС</NavLink>
-                                    <NavLink to='/delivery' className="menu poppins black">ХҮРГЭЛТИЙН БҮС</NavLink>
+                                    <Nav.Link href='/home' className="menu nuur orangeFont poppins">НҮҮР</Nav.Link>
+                                    <Nav.Link href='/main' className="menu poppins black">ХООЛНЫ ЦЭС</Nav.Link>
+                                    <Nav.Link href='/delivery' className="menu poppins black">ХҮРГЭЛТИЙН БҮС</Nav.Link>
                                 </div>
                                 <div className="collapse1">
                                     <div className="division">

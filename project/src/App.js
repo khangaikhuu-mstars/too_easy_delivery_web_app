@@ -12,19 +12,17 @@ import '../src/css/menu.css'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Delivery from './components/delivery';
 import Main from './components/main'
-
+import Home from './components/home';
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Menu />
         <Switch>
+          <Route path='/home' component={Home}></Route>
           <Route path='/delivery' component={Delivery}></Route>
           <Route path='/main' component={Main}></Route>
         </Switch>
-        <SliderWeb />
-        <InfoPanel />
-        <MainDish />
         <Footer />
       </div>
     </BrowserRouter>
