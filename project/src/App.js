@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './components/Footer';
 import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
+import CardComp from "./components/CardComp";
 import Menu from './components/menu';
 import './css/footer.css'
 import './App.css';
@@ -12,10 +13,11 @@ import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div>
-        <Menu />
-        <SliderWeb />
-        <InfoPanel></InfoPanel>
-        <Footer></Footer>
+      <Menu />
+      <SliderWeb />
+      <InfoPanel></InfoPanel>
+      <CardComp/>
+      <Footer />
     </div>
   )
 }
