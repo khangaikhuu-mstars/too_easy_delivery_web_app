@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './components/Footer';
 import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
-import Menu from './components/Menu';
+import Menu from './components/menu';
 import MainDish from './components/MainDish';
 import SaladAndDesert from './components/SaladAndDesert';
 import './css/footer.css'
