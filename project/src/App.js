@@ -9,16 +9,25 @@ import './App.css';
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Delivery from './components/delivery';
+import Main from './components/main'
 
 function App() {
   return (
-    <div>
-      <Menu />
-      <SliderWeb />
-      <InfoPanel />
-      <MainDish/>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Menu />
+        <Switch>
+          <Route path='/delivery' component={Delivery}></Route>
+          <Route path='/main' component={Main}></Route>
+        </Switch>
+        <SliderWeb />
+        <InfoPanel />
+        <MainDish />
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 

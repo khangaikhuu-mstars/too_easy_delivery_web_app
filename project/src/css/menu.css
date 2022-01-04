@@ -33,6 +33,7 @@ body {
 }
 .menu {
     margin: 0px 10px;
+    text-decoration: none;
 }
 
 .black {

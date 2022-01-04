@@ -4,12 +4,12 @@ import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
 import searchIcon from '../image/searchIcon.svg'
-import { BrowserRouter } from 'react-router-dom'
-
+import { NavLink} from "react-router-dom";
 function Menu() {
     return (
+
         <div>
-            <BrowserRouter>
+            
                 <Navbar expand="md" className="mainss">
                     <Container className="text-align-center">
 
@@ -28,9 +28,9 @@ function Menu() {
                                 style={{ maxHeight: '100px' }}
                             >
                                 <div className="d-flex tses1">
-                                    <Nav.Link to='./main' className="menu nuur orangeFont poppins">НҮҮР</Nav.Link>
-                                    <Nav.Link to='./menu' className="menu poppins black">ХООЛНЫ ЦЭС</Nav.Link>
-                                    <Nav.Link to='./main' className="menu poppins black">ХҮРГЭЛТИЙН БҮС</Nav.Link>
+                                    <NavLink to='/' className="menu nuur orangeFont poppins">НҮҮР</NavLink>
+                                    <NavLink to='/main' className="menu poppins black">ХООЛНЫ ЦЭС</NavLink>
+                                    <NavLink to='/delivery' className="menu poppins black">ХҮРГЭЛТИЙН БҮС</NavLink>
                                 </div>
                                 <div className="collapse1">
                                     <div className="division">
@@ -116,11 +116,11 @@ function Menu() {
 
                     </Container>
                 </Navbar>
-            </BrowserRouter>
+            
             <div>
+
             </div>
         </div>
-
     )
 }
 
