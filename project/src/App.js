@@ -10,20 +10,22 @@ import './App.css'
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
+import SearchComponent from './components/SearchComponent';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Menu />
-        <Switch>
-          <Route path="/home" component={Home}></Route>
-          <Route path="/delivery" component={Delivery}></Route>
-          <Route path="/main" component={Main}></Route>
-        </Switch>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <div>
+    //     <Menu />
+    //     <Switch>
+    //       <Route path="/home" component={Home}></Route>
+    //       <Route path="/delivery" component={Delivery}></Route>
+    //       <Route path="/main" component={Main}></Route>
+    //     </Switch>
+    //     <Footer />
+    //   </div>
+    // </BrowserRouter>
+    <SearchComponent/>
   )
 }
 
