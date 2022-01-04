@@ -94,7 +94,7 @@ function Menu() {
                                 <Form className="sform">
                                     <FormControl
                                         type="search"
-                                        placeholder="Хайх"
+                                        placeholder="&#128269; Хайх"
                                         className="searchForm"
                                         aria-label="Search"
                                     />
