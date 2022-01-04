@@ -1,5 +1,5 @@
 import React from "react";
-import SliderWeb from "./sliderWeb";
+import SliderWeb from "./SliderWeb";
 import InfoPanel from "./InfoPanel";
 import MainDish from "./MainDish";
 import SaladAndDesert from "./SaladAndDesert";
