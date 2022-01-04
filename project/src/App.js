@@ -4,6 +4,7 @@ import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
 import CardComp from "./components/CardComp";
 import Menu from './components/menu';
+import MainDish from './components/MainDish';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
@@ -16,7 +17,7 @@ function App() {
       <Menu />
       <SliderWeb />
       <InfoPanel></InfoPanel>
-      <CardComp/>
+      <MainDish/>
       <Footer />
     </div>
   )
