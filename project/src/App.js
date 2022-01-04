@@ -4,6 +4,7 @@ import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
 import Menu from './components/Menu';
 import MainDish from './components/MainDish';
+import SaladAndDesert from './components/SaladAndDesert';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
@@ -16,6 +17,7 @@ function App() {
       <Menu />
       <SliderWeb />
       <InfoPanel />
+      <SaladAndDesert/>
       <MainDish/>
       <Footer />
     </div>
