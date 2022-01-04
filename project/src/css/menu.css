@@ -29,6 +29,7 @@ body {
 }
 .collapse1{
     display: none;
+    margin: auto;
 }
 .menu {
     margin: 0px 10px;
@@ -122,9 +123,6 @@ body {
         z-index: 1;
         background-color: white;
     }
-    .navbar-collapse .tses1{
-        display: none;
-    }
     .navbar-collapse .changecolor{
         margin: auto;
     }
@@ -135,10 +133,15 @@ body {
     .navbar-collapse .collapse1{
         display: block;
     }
-    .navbar-collapse .tses{
+    .navbar-collapse .menu{
         display: none;
     }
-
+    .navbar-collapse .basketLogo{
+        display: none;
+    }
+    .navbar-collapse .collapse1{
+        justify-self: center;
+    }
 }
 
 @media(min-width:769px) and (max-width:991px) {
@@ -166,7 +169,7 @@ body {
     }
 
 }
-@media(min-width:1000px) and (max-width:1200px){
+@media(min-width:992px) and (max-width:1200px){
     .menu{
         font-size: 13px;
     }
