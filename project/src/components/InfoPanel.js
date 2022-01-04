@@ -3,7 +3,7 @@ const InfoPanel = () => {
   return (
     <div className="mainContainer" >
         <div className="Background_img">
-        <div className="Info_panel">
+        <div className="Info_panel container">
           <div className="Info_box">
             <svg
               width="40"
