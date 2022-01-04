@@ -1,29 +1,57 @@
 
-
-
-/* 
-.form-general{
-    font-family: 14px;
-    font-weight: 400;
-} */
-
-
-form .container{
-    font-size: 14px;
+form{
+    margin-top: 7vh;
 }
 
-.container{
+
+.login-form .container{
+    font-size: 14px;
     margin: 0 auto;
+}
+
+.form-mobile-header{
+    color: #F17228;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.05);
 }
 
 
 .form-control{
     background: #FFFFFF;
-    border: 1px solid #F17228 !important;
+    border: 1px solid #F17228;
     box-sizing: border-box;
-    border-radius: 10px !important;
+    border-radius: 10px;
+    line-height: 30px;
 }
 
+
+input::placeholder{
+    font-size: 14px;
+}
+
+#login-button{
+    width: 100%;
+    color: #FFF;
+    background-color: #F17228;
+    border-radius: 10px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#register-link{
+    color:#F17228;
+    border: solid 1px #F17228;
+    line-height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 700;
+}
+
+#register-link a{
+
+}
 
 @media  screen and (max-width: 767px) {
     .container{
@@ -35,6 +63,6 @@ form .container{
 @media  screen and (min-width: 768px) and (max-width: 992px) {
     .container{
         width: 100%;
-        max-width: 335px;
+        max-width: 340px;
     }
 }
