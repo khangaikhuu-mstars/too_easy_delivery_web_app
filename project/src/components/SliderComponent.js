@@ -56,8 +56,4 @@ function SliderWeb() {
     );
 }
 
-
-
-
-
 export default SliderWeb;
