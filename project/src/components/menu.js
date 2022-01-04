@@ -30,7 +30,7 @@ function Menu() {
 
                                 style={{ maxHeight: '100px' }}
                             >
-                                <div className="d-flex haha">
+                                <div className="d-flex tses1">
                                     <Nav.Link to='./main' className="menu nuur orangeFont poppins">НҮҮР</Nav.Link>
                                     <Nav.Link to='./menu' className="menu poppins black">ХООЛНЫ ЦЭС</Nav.Link>
                                     <Nav.Link to='./main' className="menu poppins black">ХҮРГЭЛТИЙН БҮС</Nav.Link>
