@@ -1,3 +1,4 @@
+import DesertComponent from "./DesertComponent";
 import MainDish from "./MainDish";
 import SaladAndDesert from "./SaladAndDesert";
 
@@ -29,6 +30,15 @@ function CategoryContainer() {
                         <span className="rightArrow">&#62;</span>
                     </button>
                </div>
+
+             <div className="Discount">
+                <h2 className="title">Амттан</h2>
+                    <button className="seeMoreButton" type="button">
+                        <h2 className="onWeb">Бүгдийг харах</h2> 
+                        <span className="rightArrow">&#62;</span>
+                    </button>
+               </div>
+                    <DesertComponent/>
         </div>
     )
 }
