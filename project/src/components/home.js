@@ -3,13 +3,15 @@ import SliderWeb from "./SliderComponent";
 import InfoPanel from "./InfoPanel";
 import MainDish from "./MainDish";
 import SaladAndDesert from "./SaladAndDesert";
+import CategoryLabel from "./CategoryLabel";
 function Home() {
     return (
         <div>
             <SliderWeb />
             <InfoPanel />
-            <SaladAndDesert />
-            <MainDish />
+            <CategoryLabel/>
+            {/* <SaladAndDesert />
+            <MainDish /> */}
         </div>
     )
 }
