@@ -2,7 +2,7 @@ import React from "react";
 import CardComp from "./CardComp";
 import FoodsData from '../data/foods.json';
 
-function DiscountProduct() {
+const DiscountProduct= () => {
     let filterFoodsData = FoodsData.filter((element) =>{
         return element.sales == true
     })

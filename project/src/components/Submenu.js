@@ -9,7 +9,7 @@ function Submenu({}) {
         <Container>
             <Nav variant="pills" defaultActiveKey="/home" className="submenu">
                 <Nav.Item className="me-2">
-                    <Nav.Link href='/main'>Үндсэн хоол
+                    <Nav.Link href='/main/main'>Үндсэн хоол
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="mx-2">
