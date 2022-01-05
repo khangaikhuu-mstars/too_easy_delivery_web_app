@@ -5,12 +5,11 @@
     margin-bottom: 2rem;
     padding: 0;
 }
-
-
 .mainCard{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+<<<<<<< HEAD
     justify-content: space-between;
 }
 .prices {
@@ -27,3 +26,14 @@
     font-size: 1rem;
     font-weight: 600;
 }
+=======
+}
+@media (max-width: 768px){
+    .cardComponent:nth-child(3){
+        display: none;
+    }
+    .cardComponent:nth-child(4){
+        display: none;
+    }
+}
+>>>>>>> c8ef3e924e49e8876e150bd41943ef97c3a7e47b
