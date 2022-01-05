@@ -4,6 +4,8 @@ import SliderWeb from './components/SliderWeb';
 import InfoPanel from './components/InfoPanel';
 import Menu from './components/menu';
 import FormLogin from './components/FormLogin';
+import FormRegister from './components/FormRegister'
+import FormConfirmation from './components/FormConfirmation';
 import './css/footer.css'
 import './App.css';
 import '../src/css/InfoPanel.css'
@@ -17,7 +19,7 @@ function App() {
       <SliderWeb />
       <InfoPanel></InfoPanel>
       <Footer /> */}
-      <FormLogin/>
+      <FormConfirmation/>
     </div>
   )
 }
