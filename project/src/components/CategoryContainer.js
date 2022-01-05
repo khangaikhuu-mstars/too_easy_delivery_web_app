@@ -22,15 +22,23 @@ function CategoryContainer() {
       </div>
       <SaladAndDesert />
 
-      <div className="category">
+      <div className="category ">
         <h2 className="title">Хямдралтай</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
           <span className="rightArrow">&#62;</span>
         </button>
       </div>
+      <div className='discountBadge'>
       <DiscountProduct />
+
+      </div>
+      
     </div>
   )
 }
 export default CategoryContainer
+
+
+
+
