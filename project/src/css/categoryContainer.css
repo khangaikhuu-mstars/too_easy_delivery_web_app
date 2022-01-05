@@ -6,6 +6,7 @@
     margin-left: 0 auto;
     border-left: 8px solid hsl(22, 88%, 55%);
     padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .seeMoreButton {
     background-color: #F17228;

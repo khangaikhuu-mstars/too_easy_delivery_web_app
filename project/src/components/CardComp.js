@@ -8,9 +8,9 @@ const CardComp = (props) => {
       {props.data.map((foodsDetail) => {
         console.log(foodsDetail)
         return (
-            <div className="row">
+            <div className=''>
               <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" } style={{ width: '16rem' }}>
-                <Card.Body>
+                <Card.Body className='cardBody'>
                   <Card.Img variant="top" src={foodsDetail.thumb_img} />
                   <Card.Title className="mt-3 foodTitle">{foodsDetail.name}</Card.Title>
                   <div className="prices mx-2 row ">
@@ -18,7 +18,7 @@ const CardComp = (props) => {
                       {foodsDetail.final_price = foodsDetail.price - (foodsDetail.price * foodsDetail.discount_percentage / 100)}₮
                     </Card.Text>
                     <Card.Text className="finalPrice col-6">
-                      <strike style={foodsDetail.discount_percentage== 0 ? {display: 'none'}:{display: 'block'}}>{foodsDetail.price}</strike>
+                      <strike style={foodsDetail.discount_percentage== 0 ? {display: 'none'}:{display: 'block'}}>{foodsDetail.price}₮</strike>
                     </Card.Text>
                   </div>
                   <Card.Text style={{ display: 'none' }}>{foodsDetail.sales}</Card.Text>
