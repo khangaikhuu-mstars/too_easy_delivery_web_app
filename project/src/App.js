@@ -14,13 +14,16 @@ import '../src/css/submenu.css'
 function App() {
   return (
     <BrowserRouter>
+      <div>
         <Menu />
         <Switch>
-          <Route exact path='/home' component={Home}></Route>
-          <Route path="/main" component={Main}></Route>
+          <Route exact path='/' component={Home}></Route>
+          <Route path="/home" component={Home}></Route>
           <Route path="/delivery" component={Delivery}></Route> 
+          <Route path="/main" component={Main}></Route>
         </Switch>
         <Footer />
+      </div>
     </BrowserRouter>
   )
 }
