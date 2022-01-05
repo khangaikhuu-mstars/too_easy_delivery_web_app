@@ -1,12 +1,8 @@
 import React from 'react'
-import { Navbar, Container, Nav, Form, FormControl } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import foodDeliveryLogo from '../image/fooddelivery.svg'
-import adminLogo from '../image/admin.svg'
-import basket from '../image/basketIcon.svg'
-import searchIcon from '../image/searchIcon.svg'
-import { NavLink } from "react-router-dom";
-function Menu() {
 
+function Menu() {
   return (
     <div>
       <Navbar expand="md" className="mainss">
@@ -98,7 +94,6 @@ function Menu() {
                         fill="#F17228"
                       />
                     </svg>
-
                     <Nav.Link to="./" className="tses">
                       Миний захиалга
                     </Nav.Link>
@@ -115,7 +110,6 @@ function Menu() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
       <div></div>
     </div>
   )
