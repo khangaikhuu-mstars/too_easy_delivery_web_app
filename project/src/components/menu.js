@@ -4,8 +4,9 @@ import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
 import searchIcon from '../image/searchIcon.svg'
-
+import { NavLink } from "react-router-dom";
 function Menu() {
+
   return (
     <div>
       <Navbar expand="md" className="mainss">
@@ -112,29 +113,6 @@ function Menu() {
               </div>
             </Nav>
           </Navbar.Collapse>
-
-          <div className="d-flex">
-            <div>
-              <Form className="sform">
-                <FormControl type="search" placeholder="&#128269; Хайх" className="searchForm" aria-label="Search" />
-              </Form>
-            </div>
-            <div className="searchIcon">
-              <img src={searchIcon}></img>
-            </div>
-            <div className="px-3">
-              <img src={basket} className="basketLogo"></img>
-              <a href="#action2" className="basket orangeFont poppins px-1">
-                Сагс
-              </a>
-            </div>
-            <div>
-              <img src={adminLogo} className="adminLogo"></img>
-              <a href="#action2" className="orangeFont admin poppins px-1 text-decoration-none">
-                Нэвтрэх
-              </a>
-            </div>
-          </div>
         </Container>
       </Navbar>
 
