@@ -12,6 +12,7 @@ import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
 import '../src/css/submenu.css'
 import MainDish from './components/MainDish';
+import Submenu from './components/Submenu';
 function App() {
   return (
     <BrowserRouter>
@@ -22,7 +23,7 @@ function App() {
           <Route path="/home" component={Home}></Route>
           <Route path="/delivery" component={Delivery}></Route>
           <Route path="/main" component={Main}></Route>
-          <Route path='/maindish' component={MainDish}></Route>
+          <Route path='/menu/maindish' component={MainDish}></Route>
         </Switch>
         <Footer />
       </div>
