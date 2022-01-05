@@ -2,7 +2,7 @@ import MainDish from "./MainDish";
 import SaladAndDesert from "./SaladAndDesert";
 import DiscountProduct from "./DiscountProduct";
 
-function CategoryLabel() {
+function CategoryContainer() {
     return(
         <div className="container">
               <div className="mainDish ">
@@ -34,4 +34,4 @@ function CategoryLabel() {
         </div>
     )
 }
-export default CategoryLabel;
+export default CategoryContainer;

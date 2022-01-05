@@ -1,17 +1,13 @@
 import React from "react";
 import SliderWeb from "./SliderComponent";
 import InfoPanel from "./InfoPanel";
-import MainDish from "./MainDish";
-import SaladAndDesert from "./SaladAndDesert";
-import CategoryLabel from "./CategoryLabel";
+import CategoryContainer from "./CategoryContainer";
 function Home() {
     return (
         <div>
             <SliderWeb />
             <InfoPanel />
-            <CategoryLabel/>
-            {/* <SaladAndDesert />
-            <MainDish /> */}
+            <CategoryContainer/>
         </div>
     )
 }
