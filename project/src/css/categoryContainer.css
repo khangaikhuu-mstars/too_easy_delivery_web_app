@@ -1,4 +1,4 @@
-.mainDish {
+.category {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     border-left: 8px solid hsl(22, 88%, 55%);
     padding: 0 0.5rem;
 }
-.mainDishButton {
+.seeMoreButton {
     background-color: #F17228;
     color: white;
     border-radius: 20px ;
@@ -29,7 +29,7 @@
     .onWeb {
         display: none;
     }
-    .mainDishButton {
+    .seeMoreButton {
         background-color: white;
         color: #F17228;
         font-size: 1.5rem;
@@ -40,13 +40,13 @@
     .onWeb {
         display: none;
     }
-    .mainDishButton {
+    .seeMoreButton {
         background-color: white;
         color: #F17228;
     }
 }
 @media (min-width:992px){
-    .mainDishButton {
+    .seeMoreButton {
         padding: 3px 15px;
     }
     .title {
