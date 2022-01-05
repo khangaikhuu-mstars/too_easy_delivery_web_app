@@ -1,5 +1,12 @@
-import React from 'react'
+import React from "react";
+import DeliveryRadius from "./DeliveryRadius";
+
 function Delivery() {
-  return <h1>Delivery</h1>
+    return (
+        <div>
+            <DeliveryRadius />
+        </div>
+    )
 }
+
 export default Delivery
