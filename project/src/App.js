@@ -10,15 +10,16 @@ import './App.css'
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
-
+import '../src/css/submenu.css'
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Menu />
         <Switch>
+          <Route exact path='/' component={Home}></Route>
           <Route path="/home" component={Home}></Route>
-          <Route path="/delivery" component={Delivery}></Route>
+          <Route path="/delivery" component={Delivery}></Route> 
           <Route path="/main" component={Main}></Route>
         </Switch>
         <Footer />
