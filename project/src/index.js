@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/menu.css'
 import './css/sliderWeb.css';
+import './css/categoryContainer.css'
 
 ReactDOM.render(
   <React.StrictMode>
