@@ -11,6 +11,7 @@ import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
 import '../src/css/submenu.css'
+
 function App() {
   return (
     <BrowserRouter>
@@ -28,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
