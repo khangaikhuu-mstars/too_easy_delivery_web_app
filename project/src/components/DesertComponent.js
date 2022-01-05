@@ -1,11 +1,10 @@
-import React from 'react'
 import CardComp from './CardComp'
 import FoodsData from '../data/foods.json'
 
-function SaladAndDesert() {
+function DesertComponent() {
   let filterFoodsData = FoodsData.filter((element) => {
-    return element.category == 'Салад ба зууш'
+    return element.category == 'Амттан'
   })
   return <CardComp data={filterFoodsData} />
 }
-export default SaladAndDesert
+export default DesertComponent

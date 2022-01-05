@@ -95,10 +95,13 @@ body {
 }
 .tses{
     font-size: 16px;
-    
+}
+nav .tses1 .active{
+    color: #F17228 !important;
+    font-weight: 700 !important;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .sform {
         display: none;
     }
@@ -145,7 +148,7 @@ body {
     }
 }
 
-@media(min-width:769px) and (max-width:991px) {
+@media(min-width:768px) and (max-width:991px) {
     .sform {
         display: none;
     }
