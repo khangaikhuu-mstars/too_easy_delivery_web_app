@@ -2,7 +2,7 @@ import React from "react";
 import CardComp from "./CardComp";
 import FoodsData from '../data/foods.json';
 
-function SaladAndDesert() {
+function DiscountProduct() {
     let filterFoodsData = FoodsData.filter((element) =>{
         return element.sales == true
     })
@@ -10,4 +10,4 @@ function SaladAndDesert() {
             <CardComp data={filterFoodsData}/>
     )
 }
-export default SaladAndDesert;
+export default DiscountProduct;
