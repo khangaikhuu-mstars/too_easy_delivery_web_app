@@ -1,6 +1,5 @@
 import MainDish from "./MainDish";
 import SaladAndDesert from "./SaladAndDesert";
-import DiscountProduct from "./DiscountProduct";
 
 function CategoryContainer() {
     return(
@@ -30,7 +29,6 @@ function CategoryContainer() {
                         <span className="rightArrow">&#62;</span>
                     </button>
                </div>
-               <DiscountProduct/>
         </div>
     )
 }
