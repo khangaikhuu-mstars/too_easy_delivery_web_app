@@ -9,7 +9,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-<<<<<<< HEAD
     justify-content: space-between;
 }
 .prices {
@@ -26,8 +25,7 @@
     font-size: 1rem;
     font-weight: 600;
 }
-=======
-}
+
 @media (max-width: 768px){
     .cardComponent:nth-child(3){
         display: none;
@@ -36,4 +34,3 @@
         display: none;
     }
 }
->>>>>>> c8ef3e924e49e8876e150bd41943ef97c3a7e47b
