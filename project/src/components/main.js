@@ -1,6 +1,7 @@
 import React from 'react'
-
+import Submenu from './Submenu'
 function Main() {
-  return <h1>Hoolny tses</h1>
+  return (
+  <Submenu></Submenu>)
 }
 export default Main

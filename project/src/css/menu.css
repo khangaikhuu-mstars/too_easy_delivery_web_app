@@ -95,7 +95,10 @@ body {
 }
 .tses{
     font-size: 16px;
-    
+}
+nav .tses1 .active{
+    color: #F17228 !important;
+    font-weight: 700 !important;
 }
 
 @media (max-width:767px) {

@@ -10,17 +10,19 @@ import './App.css'
 import '../src/css/InfoPanel.css'
 import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
-
+import '../src/css/submenu.css'
+import MainDish from './components/MainDish';
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Menu />
         <Switch>
-          <Route path='/' component={Home}></Route>
+          <Route exact path='/.' component={Home}></Route>
           <Route path="/home" component={Home}></Route>
           <Route path="/delivery" component={Delivery}></Route>
           <Route path="/main" component={Main}></Route>
+          <Route path='/maindish' component={MainDish}></Route>
         </Switch>
         <Footer />
       </div>

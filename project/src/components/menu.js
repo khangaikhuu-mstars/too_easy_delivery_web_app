@@ -20,7 +20,7 @@ function Menu() {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="me-auto my-2 my-lg-0"
-
+                            variant="pills"
                             style={{ maxHeight: '100px' }}
                         >
                             <div className="d-flex tses1">

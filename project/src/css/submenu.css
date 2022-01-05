@@ -1,0 +1,16 @@
+ .submenu .nav-link{
+    color: #f17228 !important;
+    font-weight: 700 !important;
+    border: #f17228 1px solid !important;
+    border-radius: 15px !important;
+    padding: 10px 20px !important;
+}
+.submenu .active{
+    background-color: #f17228 !important;
+    color: white !important;
+}
+.submenu{
+    overflow: auto !important;
+    white-space: nowrap !important;
+    flex-wrap: nowrap !important;
+}
