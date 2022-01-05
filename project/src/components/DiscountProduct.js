@@ -8,7 +8,7 @@ function DiscountProduct() {
   })
   return(
       <div className='discountClass'>
-          <CardComp data={filterFoodsData} />
+          <CardComp   data={filterFoodsData}/>
       </div>
   ) 
 }
