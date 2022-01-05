@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/SaladAndDesert.css'
 import CardComp from "./CardComp";
 import FoodsData from '../data/foods.json';
 
