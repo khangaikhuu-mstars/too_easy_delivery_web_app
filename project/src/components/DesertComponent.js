@@ -1,10 +1,10 @@
 import CardComp from './CardComp'
 import FoodsData from '../data/foods.json'
 
-function MainDish() {
+function DesertComponent() {
   let filterFoodsData = FoodsData.filter((element) => {
-    return element.category == 'Үндсэн хоол'
+    return element.category == 'Амттан'
   }).slice(0, 4)
   return <CardComp data={filterFoodsData} />
 }
-export default MainDish
+export default DesertComponent
