@@ -52,7 +52,7 @@
         "name": "Банана сендвич",
         "sales": true,
         "price": "5,800₮",
-        "discount_percentage": "20%",
+        "discount_percentage": "30%",
         "final_price": "4,640₮",
         "portion": 2,
         "stock": 10,
