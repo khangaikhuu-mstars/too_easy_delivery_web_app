@@ -6,9 +6,8 @@ import CardModal from './CardModal'
 const CardComp = (props) => {
   const [modalShow, setModal] = useState(false)
   return (
-    <div className="mainCard flex-container">
+    <div className="mainCard">
       {props.data.map((foodsDetail) => {
-        console.log(foodsDetail)
         return (
           <div className="row">
             <div onclick = {()=> setModal(true)}>
@@ -18,15 +17,14 @@ const CardComp = (props) => {
               >
                 <Card.Body>
                   <Card.Img variant="top" src={foodsDetail.thumb_img} />
-                  <Card.Title className="mt-3 mx-2 foodTitle">{foodsDetail.name}</Card.Title>
+                  <Card.Title className="mt-3 foodTitle">{foodsDetail.name}</Card.Title>
                   <div className="prices mx-2 row ">
-                    <Card.Text className="col-5 priceTag" style={{ color: '#f17228' }}>
-                      {foodsDetail.final_price}
+                    <Card.Text className="col-6 priceTag" style={{ color: '#f17228' }}>
+                      {foodsDetail.final_price = foodsDetail.price - (foodsDetail.price * foodsDetail.discount_percentage / 100)}₮
                     </Card.Text>
-                    <Card.Text className="finalPrice col-5">
-                      <strike>{foodsDetail.price}</strike>
+                    <Card.Text className="finalPrice col-6">
+                      <strike style={foodsDetail.discount_percentage== 0 ? {display: 'none'}:{display: 'block'}}>{foodsDetail.price}₮</strike>
                     </Card.Text>
-                    <div className="col-2"></div>
                   </div>
                   <Card.Text style={{ display: 'none' }}>{foodsDetail.sales}</Card.Text>
                   <Card.Text style={{ display: 'none' }}>{foodsDetail.portion}</Card.Text>
@@ -45,4 +43,4 @@ const CardComp = (props) => {
   )
 }
 
-export default CardComp
+export default CardComp;

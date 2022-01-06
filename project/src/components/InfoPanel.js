@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 const InfoPanel = () => {
   return (
     <div className="mainContainer">
@@ -49,4 +50,5 @@ const InfoPanel = () => {
     </div>
   )
 }
-export default InfoPanel
+
+export default InfoPanel;

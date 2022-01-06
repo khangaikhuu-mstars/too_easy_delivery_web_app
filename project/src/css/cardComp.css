@@ -1,9 +1,12 @@
 .cardComponentWithoutBadge{
-    border-radius: 10px;
+    border-radius: 20px !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     padding: 0;
+}
+.cardComponentWithoutBadge img {
+    border-radius: 20px;
 }
 .mainCard{
     display: flex;
@@ -12,37 +15,38 @@
     justify-content: space-between;
 }
 .priceTag {
-    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
     font-size: 18px;
     font-weight: 600;
-}
-.prices {
-    padding-left: 0;
-    margin-left: 0.5rem;
-    
+    margin: 0 !important;
+    flex-wrap: wrap; 
+    width: 200px;
 }
 .foodTitle {
     font-size: 1rem;
     font-weight: 600;
 }
 .cardComponentWithBadge{
-    border-radius: 10px;
+    border-radius: 20px !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     padding: 0;
-    position: relative;
-    z-index: 1;
+}
+.cardComponentWithBadge img {
+    border-radius: 20px;
 }
 .cardComponentWithBadge::after{
     content: "";
     background-color: #F17228;
-    border-radius: 0px 7px 0px 20px !important;
+    border-radius: 0px 20px 0px 20px !important;
     position: absolute;
-    width: 50px;
-    height: 27px;
-    top: 15px;
-    right: 15px;
+    width: 55px;
+    height: 33px;
+    top: 16px;
+    right: 16px;
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -54,8 +58,8 @@
 }
 .discount_percentage {
     position: absolute;
-    top: 18px;
-    right: 20px;
+    top: 20px;
+    right: 24px;
     z-index: 3;
     color: white;
     font-size: 1rem;

@@ -1,6 +1,7 @@
 import React from 'react'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
-const BreadCrumbComponent = (props) => {
+
+const BreadCrumbComponent = () => {
   return (
     <div>
       <Breadcrumb>
@@ -11,4 +12,5 @@ const BreadCrumbComponent = (props) => {
     </div>
   )
 }
-export default BreadCrumbComponent
+
+export default BreadCrumbComonent;
