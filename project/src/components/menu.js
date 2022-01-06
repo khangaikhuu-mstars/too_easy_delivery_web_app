@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Container, Nav, Form, FormControl } from 'react-bootstrap'
+import { Navbar, Container, Nav, Form, FormControl, Offcanvas } from 'react-bootstrap'
 import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
@@ -122,6 +122,7 @@ function Menu () {
               <img src={searchIcon}></img>
             </div>
             <div className='px-3'>
+              <Offcanvas></Offcanvas>
               <img src={basket} className='basketLogo'></img>
               <a href='#action2' className='basket orangeFont poppins px-1'>
                 Сагс
