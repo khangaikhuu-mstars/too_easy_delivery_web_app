@@ -1,6 +1,6 @@
 import React from 'react'
 import Submenu from './Submenu'
-import DiscountProduct from '../components/DiscountProduct'
+import DiscountProduct from './DiscountProduct'
 import SaladAndDesert from './SaladAndDesert'
 import CategoryContainer from './CategoryContainer'
 import  {Route} from 'react-router-dom'
