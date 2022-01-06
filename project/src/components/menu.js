@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import foodDeliveryLogo from '../image/fooddelivery.svg'
 
 function Menu() {
@@ -94,7 +94,6 @@ function Menu() {
                         fill="#F17228"
                       />
                     </svg>
-
                     <Nav.Link to="./" className="tses">
                       Миний захиалга
                     </Nav.Link>
@@ -111,7 +110,6 @@ function Menu() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
       <div></div>
     </div>
   )
