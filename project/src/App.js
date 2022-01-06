@@ -13,7 +13,6 @@ import '../src/css/menu.css'
 import '../src/css/submenu.css'
 import '../src/css/categoryContainer.css'
 
-
 function App() {
   return (
     <BrowserRouter>

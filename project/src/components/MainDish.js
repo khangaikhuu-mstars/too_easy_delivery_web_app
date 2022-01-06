@@ -7,4 +7,5 @@ function MainDish() {
   }).slice(0, 4)
   return <CardComp data={filterFoodsData} isSale={true}/>
 }
-export default MainDish
+
+export default MainDish;

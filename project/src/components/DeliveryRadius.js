@@ -120,4 +120,4 @@ function DeliveryRadius() {
   )
 }
 
-export default DeliveryRadius
+export default DeliveryRadius;

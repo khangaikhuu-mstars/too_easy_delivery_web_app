@@ -8,4 +8,5 @@ function SaladAndDesert() {
   })
   return <CardComp data={filterFoodsData} />
 }
+
 export default SaladAndDesert

@@ -9,4 +9,4 @@ function Delivery() {
     )
 }
 
-export default Delivery
+export default Delivery;
