@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 const InfoPanel = () => {
   return (
     <div className="mainContainer">
       <div className="Background_img">
-        <div className="Info_panel">
+        <div className="Info_panel container">
           <div className="Info_box">
             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="40" height="40" rx="10" fill="#FFD7BF" fill-opacity="0.28" />
