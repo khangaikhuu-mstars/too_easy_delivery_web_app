@@ -1,8 +1,9 @@
 import React from "react";
-import { Nav, Route } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-function Submenu({ }) {
+
+function Submenu() {
     return (
         <div>
             <div>
@@ -21,4 +22,5 @@ function Submenu({ }) {
 
     )
 }
-export default Submenu
+
+export default Submenu;

@@ -7,4 +7,5 @@ function DesertComponent() {
   })
   return <CardComp data={filterFoodsData} />
 }
-export default DesertComponent
+
+export default DesertComponent;

@@ -12,5 +12,6 @@ function DiscountProduct() {
       </div>
   ) 
 }
-export default DiscountProduct
+
+export default DiscountProduct;
 

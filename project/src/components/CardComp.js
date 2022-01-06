@@ -36,4 +36,4 @@ const CardComp = (props) => {
   )
 }
 
-export default CardComp
+export default CardComp;
