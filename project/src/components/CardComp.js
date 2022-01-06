@@ -6,7 +6,6 @@ const CardComp = (props) => {
   return (
     <div className="mainCard">
       {props.data.map((foodsDetail) => {
-        console.log(foodsDetail)
         return (
             <div className=''>
               <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" } style={{ width: '16rem' }}>
