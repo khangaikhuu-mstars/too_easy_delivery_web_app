@@ -26,7 +26,7 @@
 .title {
     margin-bottom: 0;
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .onWeb {
         display: none;
     }
@@ -36,8 +36,15 @@
         font-size: 1.5rem;
         height: 20px;
     }
+    .cardComponent:nth-child(3){
+        display: none;
+    }
+    .cardComponent:nth-child(4){
+        display: none;
+    }
+
 }
-@media (min-width:769px) and (max-width:991px){
+@media (min-width:768px) and (max-width:992px){
     .onWeb {
         display: none;
         
@@ -47,7 +54,7 @@
         color: #F17228;
     }
 }
-@media (min-width:992px){
+@media (min-width:993px){
     .seeMoreButton {
         padding: 5px 25px;
     }
