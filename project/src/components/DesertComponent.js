@@ -1,4 +1,4 @@
-import CardComp from './CardComp'
+import CardComp from './CardComponent'
 import FoodsData from '../data/foods.json'
 
 function DesertComponent() {
@@ -8,4 +8,4 @@ function DesertComponent() {
   return <CardComp data={filterFoodsData} />
 }
 
-export default DesertComponent;
+export default DesertComponent

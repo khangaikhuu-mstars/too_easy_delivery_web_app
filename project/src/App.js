@@ -1,10 +1,10 @@
-import React from 'react';
-import Footer from './components/Footer';
-import Menu from './components/Menu';
+import React from 'react'
+import Footer from './components/FooterComponent'
+import Menu from './components/MenuComponent'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Delivery from './components/Delivery'
-import Main from './components/Main'
-import Home from './components/Home'
+import Delivery from './components/DeliveryComponent'
+import Main from './components/MainComponent'
+import Home from './components/HomeComponent'
 import './css/footer.css'
 import './App.css'
 import '../src/css/InfoPanel.css'
@@ -12,6 +12,7 @@ import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
 import '../src/css/submenu.css'
 import '../src/css/categoryContainer.css'
+import { Redirect } from 'react-router-dom'
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
       <div>
         <Menu />
         <Switch>
-          <Route exact path='/' component={Home}></Route>
+          <Route exact path="/" render={() => <Redirect to={'/home'} />}></Route>
           <Route path="/home" component={Home}></Route>
-          <Route path="/delivery" component={Delivery}></Route> 
+          <Route path="/delivery" component={Delivery}></Route>
           <Route path="/menu" component={Main}></Route>
         </Switch>
         <Footer />
@@ -30,4 +31,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
