@@ -36,7 +36,7 @@
         font-size: 1.5rem;
         height: 20px;
     }
-    .mainDish:last-child {
+    .mainCard .cardContainer:nth-child(3),.mainCard .cardContainer:nth-child(4){
         display: none;
     }
   

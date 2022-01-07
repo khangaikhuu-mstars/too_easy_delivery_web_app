@@ -9,7 +9,7 @@ const CardComp = (props) => {
     <div className="mainCard row">
       {props.data.map((foodsDetail) => {
         return (
-            <div className='col-6 col-lg-3 col-md-3 col-sm-6'>
+            <div className='cardContainer col-6 col-lg-3 col-md-3 col-sm-6'>
               <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" }>
                 <Card.Body className='cardBody'>
                   <Card.Img variant="top" className='thumbnail' src={foodsDetail.thumb_img} />

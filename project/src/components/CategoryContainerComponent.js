@@ -15,7 +15,9 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <DiscountProduct slice={true}/>
+      <div className='cardContainer'>
+        <DiscountProduct slice={true} />
+      </div>
 
       <div className="category ">
         <h2 className="title"> Үндсэн хоол</h2>
@@ -26,7 +28,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <MainDish slice={true}/>
+      <MainDish slice={true} mobiledata={false} />
 
       <div className="category">
         <h2 className="title"> Салат ба зууш</h2>
@@ -37,7 +39,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <SaladAndDesert slice={true}/>
+      <SaladAndDesert slice={true} />
 
       <div className="category">
         <h2 className="title"> Амттан</h2>
@@ -48,7 +50,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <DesertComponent slice={true}/>
+      <DesertComponent slice={true} />
     </div>
   )
 }
