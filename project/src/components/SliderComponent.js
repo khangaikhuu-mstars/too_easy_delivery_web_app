@@ -51,4 +51,4 @@ function SliderWeb() {
   )
 }
 
-export default SliderWeb
+export default SliderWeb;

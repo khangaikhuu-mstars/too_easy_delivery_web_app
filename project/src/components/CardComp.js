@@ -6,7 +6,6 @@ const CardComp = (props) => {
   return (
     <div className="mainCard row">
       {props.data.map((foodsDetail) => {
-        console.log(foodsDetail)
         return (
             <div className='col-6 col-md-3 col-sm-4'>
               <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" }>
@@ -36,4 +35,4 @@ const CardComp = (props) => {
   )
 }
 
-export default CardComp
+export default CardComp;

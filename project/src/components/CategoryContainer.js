@@ -2,6 +2,7 @@ import MainDish from './MainDish'
 import SaladAndDesert from './SaladAndDesert'
 import DiscountProduct from './DiscountProduct'
 import DesertComponent from './DesertComponent'
+
 function CategoryContainer() {
   return (
     
