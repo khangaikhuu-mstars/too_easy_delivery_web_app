@@ -2,6 +2,7 @@ import MainDish from './MainDish'
 import SaladAndDesert from './SaladAndDesert'
 import DiscountProduct from './DiscountProduct'
 import DesertComponent from './DesertComponent'
+import { NavLink } from 'react-router-dom'
 
 function CategoryContainer() {
   return (
@@ -10,7 +11,7 @@ function CategoryContainer() {
       <div className="category ">
         <h2 className="title">Хямдралтай</h2>
         <button className="seeMoreButton" type="button">
-          <a href='/'><h2 className="onWeb">Бүгдийг харах</h2></a>
+          <NavLink to='/main/discountProduct'><h2 className="onWeb ">Бүгдийг харах</h2></NavLink>
           <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
@@ -19,7 +20,7 @@ function CategoryContainer() {
       <div className="category ">
         <h2 className="title"> Үндсэн хоол</h2>
         <button className="seeMoreButton" type="button">
-          <h2 className="onWeb">Бүгдийг харах</h2>
+          <NavLink to='/main/main'><h2 className="onWeb">Бүгдийг харах</h2></NavLink>
           <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
@@ -28,7 +29,7 @@ function CategoryContainer() {
       <div className="category">
         <h2 className="title"> Салат ба зууш</h2>
         <button className="seeMoreButton" type="button">
-          <h2 className="onWeb">Бүгдийг харах</h2>
+        <NavLink to='/main/saladAndDesert'><h2 className="onWeb">Бүгдийг харах</h2></NavLink>
           <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
@@ -37,7 +38,7 @@ function CategoryContainer() {
       <div className="category">
         <h2 className="title"> Амттан</h2>
         <button className="seeMoreButton" type="button">
-          <h2 className="onWeb">Бүгдийг харах</h2>
+        <NavLink to='/main/desert'><h2 className="onWeb">Бүгдийг харах</h2></NavLink>
           <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
