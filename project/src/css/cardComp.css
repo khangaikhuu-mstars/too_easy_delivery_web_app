@@ -1,75 +1,77 @@
-.cardComponentWithoutBadge{
-    border-radius: 20px !important;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    padding: 0;
+.cardComponentWithoutBadge {
+  border-radius: 20px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
 }
-.cardComponentWithoutBadge:hover{
-    background-image:url() ;
+.cardComponentWithoutBadge:hover {
+  background-image: url(../images/busket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cardComponentWithoutBadge img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .thumbnail {
-    width: 100%;
-    padding: 0.5px;
+  width: 100%;
+  padding: 0.5px;
 }
-.mainCard{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .priceTag {
-    display: flex;
-    flex-direction: column;
-    padding: 0 !important;
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0 !important;
 }
 .foodTitle {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
 }
-.cardComponentWithBadge{
-    border-radius: 20px !important;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    padding: 0;
+.cardComponentWithBadge {
+  border-radius: 20px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
 }
 .cardComponentWithBadge img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
-.cardComponentWithBadge::after{
-    content: "";
-    background-color: #F17228;
-    border-radius: 0px 10px 0px 20px !important;
-    position: absolute;
-    width: 55px;
-    height: 33px;
-    top: 16px;
-    right: 17px;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px !important;
-    z-index: 2;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
+.cardComponentWithBadge::after {
+  content: '';
+  background-color: #f17228;
+  border-radius: 0px 10px 0px 20px !important;
+  position: absolute;
+  width: 55px;
+  height: 33px;
+  top: 16px;
+  right: 17px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px !important;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
 }
 .discount_percentage {
-    position: absolute;
-    top: 20px;
-    right: 24px;
-    z-index: 3;
-    color: white;
-    font-size: 1rem;
-    font-weight: 600    ;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  z-index: 3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .cardComponentWithoutBadge {
     border-radius: 10px !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -77,7 +79,7 @@
     margin-bottom: 2rem;
     padding: 0;
   }
-  .cardComponentWithBadge{
+  .cardComponentWithBadge {
     border-radius: 10px !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 1.5rem;
@@ -87,18 +89,18 @@
   .priceTag {
     font-size: 14px;
     padding-left: 0.5rem;
-}
+  }
   .finalPrice {
-  font-size: 14px;
-  padding-left: 0;
-  padding-right: 0;
-}
-  .cardBody{
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cardBody {
     padding: 0.6rem;
-}
-.cardComponentWithBadge::after{
-    content: "";
-    background-color: #F17228;
+  }
+  .cardComponentWithBadge::after {
+    content: '';
+    background-color: #f17228;
     border-radius: 0px 10px 0px 20px !important;
     position: absolute;
     width: 55px;
@@ -113,87 +115,87 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
-}
-.discount_percentage {
+  }
+  .discount_percentage {
     position: absolute;
     top: 15px;
     right: 18px;
     z-index: 3;
     color: white;
     font-size: 1rem;
-    font-weight: 600    ;
+    font-weight: 600;
+  }
 }
-}
-@media (min-width:769px ) and (max-width: 992px){
-    .cardComponentWithoutBadge {
-        border-radius: 10px !important;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        padding: 0;
-      }
-      .cardComponentWithBadge{
-        border-radius: 10px !important;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        padding: 0;
-      }
-      .priceTag {
-          font-size: 14px;
-          padding-left: 0.5rem;
-      }
-      .finalPrice {
-        font-size: 14px;
-        padding-left: 0;
-        padding-right: 0;
-      }
-      .cardBody{
-          padding: 0.6rem;
-      }
-      .cardComponentWithBadge::after{
-        content: "";
-        background-color: #F17228;
-        border-radius: 0px 10px 0px 20px !important;
-        position: absolute;
-        width: 55px;
-        height: 33px;
-        top: 16px;
-        right: 16px;
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px !important;
-        z-index: 2;
-        color: white;
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .cardComponentWithBadge::after{
-        content: "";
-        background-color: #F17228;
-        border-radius: 0px 10px 0px 20px !important;
-        position: absolute;
-        width: 50px;
-        height: 30px;
-        top: 9px;
-        right: 11px;
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px !important;
-        z-index: 2;
-        color: white;
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .discount_percentage {
-        position: absolute;
-        top: 14px;
-        right: 16px;
-        z-index: 3;
-        color: white;
-        font-size: 1rem;
-        font-weight: 600    ;
-    }
+@media (min-width: 769px) and (max-width: 992px) {
+  .cardComponentWithoutBadge {
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .cardComponentWithBadge {
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .priceTag {
+    font-size: 14px;
+    padding-left: 0.5rem;
+  }
+  .finalPrice {
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cardBody {
+    padding: 0.6rem;
+  }
+  .cardComponentWithBadge::after {
+    content: '';
+    background-color: #f17228;
+    border-radius: 0px 10px 0px 20px !important;
+    position: absolute;
+    width: 55px;
+    height: 33px;
+    top: 16px;
+    right: 16px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cardComponentWithBadge::after {
+    content: '';
+    background-color: #f17228;
+    border-radius: 0px 10px 0px 20px !important;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 9px;
+    right: 11px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .discount_percentage {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    z-index: 3;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }

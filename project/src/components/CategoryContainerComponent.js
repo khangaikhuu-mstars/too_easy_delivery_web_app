@@ -3,8 +3,22 @@ import SaladAndDesert from './SaladAndDesertComponent'
 import DiscountProduct from './DiscountProductComponent'
 import DesertComponent from './DesertComponent'
 import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 
 function CategoryContainer() {
+  const [dimensions, setDimensions] = useState({
+    width: window.innerWidth
+  })
+  useEffect(() => {
+    function handleResize() {
+      setDimensions({
+        width: window.innerWidth
+      })
+    }
+
+    window.addEventListener('resize', handleResize)
+  }, [])
+
   return (
     <div className="container">
       <div className="category">
@@ -21,8 +35,8 @@ function CategoryContainer() {
           </NavLink>
         </button>
       </div>
-      <div >
-        <DiscountProduct slice={true}/>
+      <div>
+        <DiscountProduct slice={true} category={dimensions.width < 769 ? true : false} />
       </div>
 
       <div className="category ">
@@ -39,7 +53,7 @@ function CategoryContainer() {
           </NavLink>
         </button>
       </div>
-      <MainDish slice={true}/>
+      <MainDish slice={true} category={dimensions.width < 769 ? true : false} />
 
       <div className="category">
         <h2 className="title"> Салат ба зууш</h2>
@@ -55,7 +69,7 @@ function CategoryContainer() {
           </NavLink>
         </button>
       </div>
-      <SaladAndDesert slice={true} />
+      <SaladAndDesert slice={true} category={dimensions.width < 769 ? true : false} />
 
       <div className="category">
         <h2 className="title"> Амттан</h2>
@@ -71,7 +85,7 @@ function CategoryContainer() {
           </NavLink>
         </button>
       </div>
-      <DesertComponent slice={true} />
+      <DesertComponent slice={true} category={dimensions.width < 769 ? true : false} />
     </div>
   )
 }
