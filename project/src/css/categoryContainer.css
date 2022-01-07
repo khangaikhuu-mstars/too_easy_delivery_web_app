@@ -36,14 +36,10 @@
         font-size: 1.5rem;
         height: 20px;
     }
-    .mainDish:nth-child(3){
+    .mainDish:last-child {
         display: none;
     }
-    .mainDish:nth-child(4){
-        display: none;
-    }
-
-
+  
 }
 @media (min-width:768px) and (max-width:992px){
     .onWeb {
