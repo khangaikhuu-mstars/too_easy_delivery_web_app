@@ -4,13 +4,13 @@ import '../css/cardComp.css';
 
 const CardComp = (props) => {
   return (
-    <div className="mainCard">
+    <div className="mainCard row">
       {props.data.map((foodsDetail) => {
         return (
-            <div className=''>
-              <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" } style={{ width: '16rem' }}>
+            <div className='col-12 col-lg-3 col-md-3 col-sm-6'>
+              <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" }>
                 <Card.Body className='cardBody'>
-                  <Card.Img variant="top" src={foodsDetail.thumb_img} />
+                  <Card.Img variant="top" className='thumbnail' src={foodsDetail.thumb_img} />
                   <Card.Title className="mt-3 foodTitle">{foodsDetail.name}</Card.Title>
                   <div className="prices mx-2 row ">
                     <Card.Text className="col-6 priceTag" style={{ color: '#f17228' }}>

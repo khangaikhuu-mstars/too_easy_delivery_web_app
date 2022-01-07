@@ -11,7 +11,7 @@ function CategoryContainer() {
         <h2 className="title">Хямдралтай</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
-          <span className="rightArrow">&#62;</span>
+          <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
       <DiscountProduct />
@@ -20,7 +20,7 @@ function CategoryContainer() {
         <h2 className="title"> Үндсэн хоол</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
-          <span className="rightArrow">&#62;</span>
+          <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
       <MainDish />
@@ -29,7 +29,7 @@ function CategoryContainer() {
         <h2 className="title"> Салат ба зууш</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
-          <span className="rightArrow">&#62;</span>
+          <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
       <SaladAndDesert />
@@ -38,7 +38,7 @@ function CategoryContainer() {
         <h2 className="title"> Амттан</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
-          <span className="rightArrow">&#62;</span>
+          <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>
       <DesertComponent />
