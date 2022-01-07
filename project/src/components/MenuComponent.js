@@ -122,18 +122,18 @@ function Menu() {
             <div className="searchIcon">
               <img src={searchIcon}></img>
             </div>
-            <div className="px-3">
-              <img src={basket} className="basketLogo"></img>
-              <a href="#action2" className="basket orangeFont poppins px-1">
-                Сагс
-              </a>
+            <div className='d-flex align-items-center'>
+              <div className="px-3">
+                <OffCanvas></OffCanvas>
+              </div>
+              <div>
+                <img src={adminLogo} className="adminLogo"></img>
+                <a href="#action2" className="orangeFont admin poppins px-1 text-decoration-none">
+                  Нэвтрэх
+                </a>
+              </div>
             </div>
-            <div>
-              <img src={adminLogo} className="adminLogo"></img>
-              <a href="#action2" className="orangeFont admin poppins px-1 text-decoration-none">
-                Нэвтрэх
-              </a>
-            </div>
+
           </div>
         </Container>
       </Navbar>

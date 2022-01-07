@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Offcanvas, Button } from 'react-bootstrap';
 import basket from '../image/basketIcon.svg'
 
+import MainDish from "./MainDishComponent";
 function OffCanvas() {
   const [show, setShow] = useState(false);
 
@@ -17,10 +18,10 @@ function OffCanvas() {
       </Button>
       <Offcanvas show={show} onHide={handleClose} placement="end" >
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Taны Сагс</Offcanvas.Title>
+          <Offcanvas.Title className="Poppins">Taны Сагс</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Another information
+          <MainDish></MainDish>
         </Offcanvas.Body>
       </Offcanvas>
     </>
