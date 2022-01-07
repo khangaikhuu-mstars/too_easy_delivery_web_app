@@ -12,13 +12,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .priceTag {
     display: flex;
     flex-direction: column;
     padding: 0 !important;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 600;
     margin: 0 !important;
     flex-wrap: wrap; 

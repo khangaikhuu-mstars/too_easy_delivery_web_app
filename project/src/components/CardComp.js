@@ -4,12 +4,12 @@ import '../css/cardComp.css';
 
 const CardComp = (props) => {
   return (
-    <div className="mainCard">
+    <div className="mainCard row">
       {props.data.map((foodsDetail) => {
         console.log(foodsDetail)
         return (
-            <div className=''>
-              <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" } style={{ width: '16rem' }}>
+            <div className='col-6 col-md-3 col-sm-4'>
+              <Card className={foodsDetail.sales ? "cardComponentWithBadge":"cardComponentWithoutBadge" }>
                 <Card.Body className='cardBody'>
                   <Card.Img variant="top" src={foodsDetail.thumb_img} />
                   <Card.Title className="mt-3 foodTitle">{foodsDetail.name}</Card.Title>
