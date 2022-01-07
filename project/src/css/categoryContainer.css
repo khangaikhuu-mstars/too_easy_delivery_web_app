@@ -36,12 +36,13 @@
         font-size: 1.5rem;
         height: 20px;
     }
-    .cardComponent:nth-child(3){
+    .mainDish:nth-child(3){
         display: none;
     }
-    .cardComponent:nth-child(4){
+    .mainDish:nth-child(4){
         display: none;
     }
+
 
 }
 @media (min-width:768px) and (max-width:992px){

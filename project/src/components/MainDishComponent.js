@@ -1,11 +1,15 @@
 import FoodsData from '../data/foods.json'
 import CardComp from './CardComponent'
 
-function MainDish() {
+function MainDish({slice}) {
   let filterFoodsData = FoodsData.filter((element) => {
     return element.category == 'Үндсэн хоол'
-  }).slice(0, 4)
-  return <CardComp data={filterFoodsData} isSale={true} />
+  })
+  return (
+    <div className='mainDish'>
+      <CardComp data={slice? filterFoodsData.slice(0, 4): filterFoodsData} />
+    </div>
+  )
 }
 
 export default MainDish
