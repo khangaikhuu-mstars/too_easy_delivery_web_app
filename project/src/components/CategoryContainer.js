@@ -10,7 +10,7 @@ function CategoryContainer() {
       <div className="category ">
         <h2 className="title">Хямдралтай</h2>
         <button className="seeMoreButton" type="button">
-          <h2 className="onWeb">Бүгдийг харах</h2>
+          <a href='/'><h2 className="onWeb">Бүгдийг харах</h2></a>
           <span className="rightArrow">&nbsp; <i class="fas fa-chevron-right"></i></span>
         </button>
       </div>

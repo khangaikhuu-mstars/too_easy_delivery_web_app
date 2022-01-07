@@ -124,7 +124,10 @@ function Menu() {
             </div>
             <div className=' d-flex align-items-center'>
               <div className='px-3'>
-                <OffCanvas></OffCanvas>
+              <img src={basket} className='basketLogo'></img>
+        <a href='#action2' className='basket orangeFont poppins px-1'>
+          Сагс
+        </a>
               </div>
               <div className='align-items-center justify-content-center'>
                 <img src={adminLogo} className='adminLogo'></img>
