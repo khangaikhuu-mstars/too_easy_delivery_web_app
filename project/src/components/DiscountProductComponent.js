@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import CardComp from './CardComponent'
 import FoodsData from '../data/foods.json'
 
@@ -13,7 +13,7 @@ function DiscountProduct(
   const [dimensions, setDimensions] = React.useState({ 
     width: window.innerWidth
   })
-  React.useEffect(() => {
+  useEffect(() => {
     function handleResize() {
       setDimensions({
         width: window.innerWidth

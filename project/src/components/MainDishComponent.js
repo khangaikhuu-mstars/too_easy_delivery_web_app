@@ -1,6 +1,6 @@
 import FoodsData from '../data/foods.json'
 import CardComponent from './CardComponent'
-import React from 'react'
+import React, {useEffect } from 'react';
 
 function MainDish({slice }) {
   let filterFoodsData = FoodsData.filter((element) => {
@@ -12,7 +12,7 @@ function MainDish({slice }) {
   const [dimensions, setDimensions] = React.useState({ 
     width: window.innerWidth
   })
-  React.useEffect(() => {
+  useEffect(() => {
     function handleResize() {
       setDimensions({
         width: window.innerWidth
