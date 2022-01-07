@@ -4,7 +4,7 @@ import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
 import searchIcon from '../image/searchIcon.svg'
-
+import { NavLink } from 'react-router-dom'
 
 function Menu () {
   return (
@@ -21,15 +21,15 @@ function Menu () {
           <Navbar.Collapse id='navbarScroll'>
             <Nav className='me-auto my-2 my-lg-0' style={{ maxHeight: '100px' }}>
               <div className='d-flex tses1'>
-                <Nav.Link href='/home' className='menu nuur orangeFont poppins'>
+                <NavLink to='/home' className='menu nuur black poppins'>
                   НҮҮР
-                </Nav.Link>
-                <Nav.Link href='/menu' className='menu poppins black'>
+                </NavLink>
+                <NavLink to='/menu' className='menu poppins black'>
                   ХООЛНЫ ЦЭС
-                </Nav.Link>
-                <Nav.Link href='/delivery' className='menu poppins black'>
+                </NavLink>
+                <NavLink to='/delivery' className='menu poppins black'>
                   ХҮРГЭЛТИЙН БҮС
-                </Nav.Link>
+                </NavLink>
               </div>
               <div className='collapse1'>
                 <div className='division'>
