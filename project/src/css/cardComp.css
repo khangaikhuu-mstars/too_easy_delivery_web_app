@@ -5,6 +5,9 @@
     margin-bottom: 2rem;
     padding: 0;
 }
+.cardComponentWithoutBadge:hover{
+    background-image:url() ;
+}
 .cardComponentWithoutBadge img {
     border-radius: 10px;
 }
