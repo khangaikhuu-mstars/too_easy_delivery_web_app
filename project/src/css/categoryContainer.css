@@ -60,10 +60,11 @@
         font-weight: 700;
     }
     .onWeb {
-        font-size: 1.1rem;
+        font-size: 16px;
         margin-bottom: 0;
         font-weight: 600;
         text-decoration: none;
+        color: white;
     }
     .rightArrow {
         font-size: 1rem;
