@@ -9,17 +9,14 @@ function Submenu() {
             <div>
                 <Container>
                     <Nav variant="pills" defaultActiveKey="/home" className="submenu text-decoration-none">
-                        <NavLink to='/main' className="me-2 menuu" >Үндсэн хоол</NavLink>
-                        <NavLink to="/main/saladAndDesert" className="mx-2  menuu">Салад ба зууш</NavLink>
-                        <NavLink to="/main/desert" className="mx-2 menuu">Амттан</NavLink>
-                        <NavLink to="/main/discountProduct" className="ms-2 menuu">Хямдралтай</NavLink>
+                        <NavLink to='/menu/main' className="me-2 menuu" >Үндсэн хоол</NavLink>
+                        <NavLink to="/menu/saladAndDesert" className="mx-2  menuu">Салад ба зууш</NavLink>
+                        <NavLink to="/menu/desert" className="mx-2 menuu">Амттан</NavLink>
+                        <NavLink to="/menu/discountProduct" className="ms-2 menuu">Хямдралтай</NavLink>
                     </Nav>
                 </Container>
             </div>
-
         </div>
-
-
     )
 }
 

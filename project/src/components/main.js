@@ -16,6 +16,7 @@ function Main() {
       <Route path='/main/discountProduct' component={DiscountProduct}></Route>
       <Route path='/main/saladAndDesert' component={SaladAndDesert}></Route>
       <Route path='/main/categoryContainer' component={CategoryContainer}></Route>
+      <Route path='/main/main' component={MainDish}></Route>
       <Route path='/main/desert' component={DesertComponent}></Route></Container>
     </>
   )}
