@@ -20,11 +20,17 @@
     box-shadow: none;
     height: 100%;
 }
+.navLink {
+    text-decoration: none;
+}
 .rightArrow {
     font-size: 2rem;
+    color: #F17228;
+    text-decoration: none;
 }
 .title {
     margin-bottom: 0;
+    font-size: 1.5rem;
 }
 @media (max-width:767px){
     .onWeb {
@@ -36,10 +42,6 @@
         font-size: 1.5rem;
         height: 20px;
     }
-    .mainCard .cardContainer:nth-child(3),.mainCard .cardContainer:nth-child(4){
-        display: none;
-    }
-  
 }
 @media (min-width:768px) and (max-width:992px){
     .onWeb {
@@ -53,10 +55,11 @@
 }
 @media (min-width:993px){
     .seeMoreButton {
-        padding: 5px 25px;
+        padding: 8px 25px;
+        display: flex;
     }
     .title {
-        font-size: 14px ;
+        font-size: 1.5rem;
         font-weight: 700;
     }
     .onWeb {
@@ -69,6 +72,6 @@
     .rightArrow {
         font-size: 1rem;
         padding: 0;
-        
+        color: white;
     }
 }
