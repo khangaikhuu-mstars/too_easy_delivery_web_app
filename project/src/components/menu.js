@@ -24,7 +24,7 @@ function Menu () {
                 <Nav.Link href='/home' className='menu nuur orangeFont poppins'>
                   НҮҮР
                 </Nav.Link>
-                <Nav.Link href='/main' className='menu poppins black'>
+                <Nav.Link href='/menu' className='menu poppins black'>
                   ХООЛНЫ ЦЭС
                 </Nav.Link>
                 <Nav.Link href='/delivery' className='menu poppins black'>
