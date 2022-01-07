@@ -81,6 +81,18 @@
     margin-bottom: 2rem;
     padding: 0;
   }
+  .priceTag {
+    font-size: 14px;
+    padding-left: 0.5rem;
+}
+  .finalPrice {
+  font-size: 14px;
+  padding-left: 0;
+  padding-right: 0;
+}
+  .cardBody{
+    padding: 0.6rem;
+}
 }
 @media (min-width:769px ) and (max-width: 992px){
     .cardComponentWithoutBadge {
