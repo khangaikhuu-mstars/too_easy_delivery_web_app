@@ -36,14 +36,10 @@
         font-size: 1.5rem;
         height: 20px;
     }
-    .mainDish:nth-child(3){
+    .mainCard .cardContainer:nth-child(3),.mainCard .cardContainer:nth-child(4){
         display: none;
     }
-    .mainDish:nth-child(4){
-        display: none;
-    }
-
-
+  
 }
 @media (min-width:768px) and (max-width:992px){
     .onWeb {
@@ -64,10 +60,11 @@
         font-weight: 700;
     }
     .onWeb {
-        font-size: 1.1rem;
+        font-size: 16px;
         margin-bottom: 0;
         font-weight: 600;
         text-decoration: none;
+        color: white;
     }
     .rightArrow {
         font-size: 1rem;

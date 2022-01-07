@@ -6,9 +6,7 @@ function MainDish({slice}) {
     return element.category == 'Үндсэн хоол'
   })
   return (
-    <div className='mainDish'>
-      <CardComp data={slice? filterFoodsData.slice(0, 4): filterFoodsData} />
-    </div>
+      <CardComp data={slice ? filterFoodsData.slice(0, 4): filterFoodsData}/>
   )
 }
 
