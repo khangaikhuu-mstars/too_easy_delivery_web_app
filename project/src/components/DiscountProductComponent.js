@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import CardComp from './CardComponent'
 import FoodsData from '../data/foods.json'
 
@@ -10,7 +10,7 @@ function DiscountProduct(
   })
   filterFoodsData = slice ? filterFoodsData.slice(0, 4): filterFoodsData;
 
-  const [dimensions, setDimensions] = React.useState({ 
+  const [dimensions, setDimensions] = useState({ 
     width: window.innerWidth
   })
   useEffect(() => {
