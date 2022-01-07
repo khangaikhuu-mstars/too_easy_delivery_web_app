@@ -1,0 +1,36 @@
+
+
+
+
+
+#search-input{
+    transform-origin: right top;
+    /* transform: scale(.1); */
+    background-color: #fff;
+    transition: transform 1s ease-out;
+    border-radius: 10px;
+    border: 1px solid #F17228;
+    position:absolute;
+    right: 0;
+    margin-top: 0;
+}
+
+#search{
+    position: relative;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    #search-input{
+        width: 60vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #search-input{
+        width: 50vw;
+    }
+}

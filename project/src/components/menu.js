@@ -4,9 +4,25 @@ import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
 import searchIcon from '../image/searchIcon.svg'
+import { useState } from 'react'
 
 
 function Menu () {
+
+  
+  function hideSearchIcon(event){
+    console.log("hideSeachIcon")
+    document.getElementById("search-icon").classList.add('d-none')
+    setSearchInput(true);
+  }
+  function showSearchIcon(){
+    console.log("showSearchIcon")
+    document.getElementById('search-icon').classList.remove('d-none');
+    setSearchInput(false);
+  }
+
+  const [searchInput, setSearchInput] = useState(false);
+
   return (
     <div>
       <Navbar expand='md' className='mainss'>
@@ -115,12 +131,21 @@ function Menu () {
           <div className='d-flex'>
             <div>
               <Form className='sform'>
-                <FormControl type='search' placeholder='&#128269; Хайх' className='searchForm' aria-label='Search' />
+                <FormControl type='search' placeholder='&#128269; Хайх' className='searchForm' aria-label='Search'/>
               </Form>
             </div>
-            <div className='searchIcon'>
-              <img src={searchIcon}></img>
+
+            
+
+
+            <div className='searchIcon' id="search" onMouseEnter={hideSearchIcon} onMouseLeave={showSearchIcon}>
+              <img src={searchIcon} id="search-icon" ></img>
+              { searchInput && <input type="search" id='search-input'/> }
             </div>
+
+
+
+
             <div className='px-3'>
               <img src={basket} className='basketLogo'></img>
               <a href='#action2' className='basket orangeFont poppins px-1'>
