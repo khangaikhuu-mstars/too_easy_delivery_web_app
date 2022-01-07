@@ -12,14 +12,14 @@ import '../src/css/sliderWeb.css'
 import '../src/css/menu.css'
 import '../src/css/submenu.css'
 import '../src/css/categoryContainer.css'
-
+import { Redirect } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Menu />
         <Switch>
-          <Route exact path='/' component={Home}></Route>
+          <Route exact path='/' render={()=><Redirect to={'/home'}/>}></Route>
           <Route path="/home" component={Home}></Route>
           <Route path="/delivery" component={Delivery}></Route> 
           <Route path="/menu" component={Main}></Route>
