@@ -6,7 +6,7 @@ import DesertComponent from './DesertComponent'
 function CategoryContainer() {
   return (
     <div className="container">
-      <div className="category ">
+      <div className="category">
         <h2 className="title">Хямдралтай</h2>
         <button className="seeMoreButton" type="button">
           <h2 className="onWeb">Бүгдийг харах</h2>
@@ -15,7 +15,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <DiscountProduct />
+      <DiscountProduct slice={true}/>
 
       <div className="category ">
         <h2 className="title"> Үндсэн хоол</h2>
@@ -26,7 +26,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <MainDish />
+      <MainDish slice={true}/>
 
       <div className="category">
         <h2 className="title"> Салат ба зууш</h2>
@@ -37,7 +37,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <SaladAndDesert />
+      <SaladAndDesert slice={true}/>
 
       <div className="category">
         <h2 className="title"> Амттан</h2>
@@ -48,7 +48,7 @@ function CategoryContainer() {
           </span>
         </button>
       </div>
-      <DesertComponent />
+      <DesertComponent slice={true}/>
     </div>
   )
 }
