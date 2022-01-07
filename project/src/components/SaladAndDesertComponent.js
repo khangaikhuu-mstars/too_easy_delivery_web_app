@@ -1,5 +1,5 @@
 import React from 'react'
-import CardComp from './CardComp'
+import CardComp from './CardComponent'
 import FoodsData from '../data/foods.json'
 
 function SaladAndDesert() {

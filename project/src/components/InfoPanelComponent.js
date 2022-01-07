@@ -51,4 +51,4 @@ const InfoPanel = () => {
   )
 }
 
-export default InfoPanel;
+export default InfoPanel
