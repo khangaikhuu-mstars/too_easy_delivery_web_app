@@ -191,14 +191,14 @@ nav .tses1 .active{
     .fooddelivery {
         left: 5px;
         top: 5px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
     }
 
     .basket {
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         align-items: center;
         text-align: center;
@@ -207,7 +207,7 @@ nav .tses1 .active{
     .admin {
 
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         align-items: center;
         text-align: center;

@@ -8,11 +8,11 @@ function Submenu() {
         <div>
             <div>
                 <Container>
-                    <Nav variant="pills" defaultActiveKey="/home" className="submenu text-decoration-none">
-                        <NavLink to='/main' className="me-2 menuu" >Үндсэн хоол</NavLink>
-                        <NavLink to="/main/saladAndDesert" className="mx-2  menuu">Салад ба зууш</NavLink>
-                        <NavLink to="/main/desert" className="mx-2 menuu">Амттан</NavLink>
-                        <NavLink to="/main/discountProduct" className="ms-2 menuu">Хямдралтай</NavLink>
+                    <Nav variant="pills" className="submenu text-decoration-none" defaultActiveKey="/home">
+                        <NavLink to='/main' className="me-2 menuu" eventKey='link-1'>Үндсэн хоол</NavLink>
+                        <NavLink to="/main/saladAndDesert" className="mx-2  menuu" eventKey="link-2">Салад ба зууш</NavLink>
+                        <NavLink to="/main/desert" className="mx-2 menuu" eventKey="link-3">Амттан</NavLink>
+                        <NavLink to="/main/discountProduct" className="ms-2 menuu" eventKey="link-4">Хямдралтай</NavLink>
                     </Nav>
                 </Container>
             </div>
