@@ -1,13 +1,12 @@
 import React from 'react'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
-const BreadCrumbComponent = () => {
+const BreadCrumbComponent = (props) => {
   return (
     <div>
       <Breadcrumb>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">Library</Breadcrumb.Item>
-        <Breadcrumb.Item active>Data</Breadcrumb.Item>
+        <Breadcrumb.Item active>Хайлт</Breadcrumb.Item>
+        <Breadcrumb.Item active>{props.data}</Breadcrumb.Item>
       </Breadcrumb>
     </div>
   )

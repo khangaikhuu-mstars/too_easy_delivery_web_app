@@ -6,6 +6,7 @@ import Delivery from './components/DeliveryComponent'
 import Main from './components/MainComponent'
 import Home from './components/HomeComponent'
 import Login from './components/FormLoginComponent'
+import SearchResultComponent from './components/SearchResultComponent'
 import { Redirect } from 'react-router-dom'
 import './css/footer.css'
 import './App.css'
@@ -29,6 +30,7 @@ function App() {
           <Route path="/delivery" component={Delivery}></Route>
           <Route path="/menu" component={Main}></Route>
           <Route path="/login" component={Login}></Route>
+          <Route path="/search" component = {SearchResultComponent}></Route>
         </Switch>
         <Footer />
       </div>
