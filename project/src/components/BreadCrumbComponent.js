@@ -13,4 +13,4 @@ const BreadCrumbComponent = () => {
   )
 }
 
-export default BreadCrumbComonent;
+export default BreadCrumbComponent;

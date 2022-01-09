@@ -7,17 +7,27 @@ import searchIcon from '../image/searchIcon.svg'
 import { useState } from 'react'
 
 function Menu () {
+  //to toggle  between search icon and input
+  const [searchInput, setSearchInput] = useState(false);
+
   function hideSearchIcon (event) {
     console.log('hideSeachIcon')
     document.getElementById('search-icon').classList.add('d-none')
     setSearchInput(true)
   }
+
   function showSearchIcon () {
     console.log('showSearchIcon')
     document.getElementById('search-icon').classList.remove('d-none')
     setSearchInput(false)
+  };
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  function handleSearhcInputChange(event){
+    console.log(event.target.value)
   }
-  const [searchInput, setSearchInput] = useState(false)
+  
 
   return (
     <div>
@@ -130,9 +140,10 @@ function Menu () {
                 <FormControl type='search' placeholder='&#128269; Хайх' className='searchForm' aria-label='Search' />
               </Form>
             </div>
+            {/* search icon and inout for tab and phone */}
             <div className='searchIcon' id='search' onMouseEnter={hideSearchIcon} onMouseLeave={showSearchIcon}>
               <img src={searchIcon} id='search-icon'></img>
-              {searchInput && <input type='search' id='search-input' />}
+              {searchInput && <input type='search' id='search-input' value="" onChange={handleSearhcInputChange} onSubmit={handleSearchInputSubmit}/>}
             </div>
             <div className='px-3'>
               <img src={basket} className='basketLogo'></img>
@@ -142,7 +153,7 @@ function Menu () {
             </div>
             <div>
               <img src={adminLogo} className='adminLogo'></img>
-              <a href='#action2' className='orangeFont admin poppins px-1 text-decoration-none'>
+              <a href='/login' className='orangeFont admin poppins px-1 text-decoration-none'>
                 Нэвтрэх
               </a>
             </div>
