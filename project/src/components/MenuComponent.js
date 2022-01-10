@@ -1,34 +1,49 @@
 import React from 'react'
 import { Navbar, Container, Nav, Form, FormControl, NavLink } from 'react-bootstrap'
+import { useHistory } from "react-router-dom";
 import foodDeliveryLogo from '../image/fooddelivery.svg'
 import adminLogo from '../image/admin.svg'
 import basket from '../image/basketIcon.svg'
 import searchIcon from '../image/searchIcon.svg'
 import { useState } from 'react'
+import foods from '../data/foods.json'
 
 function Menu () {
+
+  
   //to toggle  between search icon and input
   const [searchInput, setSearchInput] = useState(false);
-
+  
   function hideSearchIcon (event) {
-    console.log('hideSeachIcon')
     document.getElementById('search-icon').classList.add('d-none')
     setSearchInput(true)
   }
-
+  
   function showSearchIcon () {
-    console.log('showSearchIcon')
     document.getElementById('search-icon').classList.remove('d-none')
     setSearchInput(false)
   };
-
+  
   const [searchTerm, setSearchTerm] = useState("");
-
+  
   function handleSearhcInputChange(event){
     console.log(event.target.value)
+    setSearchTerm(event.target.value)
   }
   
-
+  let history =  useHistory();
+  function HandleSearchInputSubmit(event){
+    event.preventDefault();
+    let searchResults = foods.filter(food => {
+      return (
+        food.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    });
+    let path=`/search?food=${searchTerm}`
+    history.push(path)
+  }
+  
+  
   return (
     <div>
       <Navbar expand='md' className='mainss'>
@@ -136,15 +151,17 @@ function Menu () {
           </Navbar.Collapse>
           <div className='d-flex'>
             <div>
-              <Form className='sform'>
-                <FormControl type='search' placeholder='&#128269; Хайх' className='searchForm' aria-label='Search' />
+              <Form className='sform' onSubmit={HandleSearchInputSubmit} >
+                <FormControl type='text' placeholder='&#128269; Хайх' className='searchForm' aria-label='Search' value={searchTerm}  onChange={handleSearhcInputChange}/>
               </Form>
             </div>
+
             {/* search icon and inout for tab and phone */}
-            <div className='searchIcon' id='search' onMouseEnter={hideSearchIcon} onMouseLeave={showSearchIcon}>
-              <img src={searchIcon} id='search-icon'></img>
-              {searchInput && <input type='search' id='search-input' value="" onChange={handleSearhcInputChange} onSubmit={handleSearchInputSubmit}/>}
-            </div>
+            <form className='searchIcon' id='search' onMouseEnter={hideSearchIcon} onMouseLeave={showSearchIcon} onSubmit={HandleSearchInputSubmit}>
+              <img src={searchIcon} id='search-icon' alt="search icon"></img>
+              {searchInput && <input type='text' id='search-input' value={searchTerm} onChange={handleSearhcInputChange} />}
+            </form>
+
             <div className='px-3'>
               <img src={basket} className='basketLogo'></img>
               <a href='#action2' className='basket orangeFont poppins px-1'>
