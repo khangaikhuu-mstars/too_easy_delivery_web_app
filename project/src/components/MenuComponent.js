@@ -15,13 +15,11 @@ function Menu () {
   const [searchInput, setSearchInput] = useState(false);
   
   function hideSearchIcon (event) {
-    console.log('hideSeachIcon')
     document.getElementById('search-icon').classList.add('d-none')
     setSearchInput(true)
   }
   
   function showSearchIcon () {
-    console.log('showSearchIcon')
     document.getElementById('search-icon').classList.remove('d-none')
     setSearchInput(false)
   };
@@ -35,14 +33,12 @@ function Menu () {
   
   let history =  useHistory();
   function HandleSearchInputSubmit(event){
-    console.log("CAlled hanle submit function and " + searchTerm);
     event.preventDefault();
     let searchResults = foods.filter(food => {
       return (
         food.name.toLowerCase().includes(searchTerm.toLowerCase())
       )
     });
-    console.log(searchResults)
     let path=`/search?food=${searchTerm}`
     history.push(path)
   }
