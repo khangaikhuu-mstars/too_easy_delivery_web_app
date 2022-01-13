@@ -5,7 +5,7 @@ const BreadCrumbComponent = (props) => {
   return (
     <div>
       <Breadcrumb>
-        <Breadcrumb.Item >Хайлт</Breadcrumb.Item>
+        <Breadcrumb.Item active>Хайлт</Breadcrumb.Item>
         <Breadcrumb.Item active>{props.data}</Breadcrumb.Item>
       </Breadcrumb>
     </div>

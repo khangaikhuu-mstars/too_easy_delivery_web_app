@@ -26,8 +26,7 @@ function SearchResultComponent(){
     }else {
         return(
             <Container className='my-5 text-center'>
-                <BreadCrumbComponent data={searchTerm}/>
-                <p id="no-item-in-search">Уучлаарай, илэрц олдсонгүй...</p>
+                <p >Уучлаарай, илэрц олдсонгүй...</p>
             </Container>
         )
     }

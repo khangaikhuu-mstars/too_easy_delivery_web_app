@@ -12,53 +12,15 @@
 #search{
     position: relative;
 }
-#no-item-in-search{
-    color: #808080;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    width: 100%;  
-}
-
 @media screen and (max-width: 767px) {
 
     #search-input{
         width: 60vw;
     }
-    .breadcrumb{
-        font-size: 12px;
-        width: 35% !important;
-    }
-
-    
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     #search-input{
         width: 50vw;
     }
-    .breadcrumb{
-        width: 25% !important;
-        font-size: 14px;
-    }
-}
-
-/* Breadcrumb separator */
-.breadcrumb-item + .breadcrumb-item::before {
-    content: ">";
-    color: #F17228
-}
-.breadcrumb{
-    margin-top: 1rem;
-    font-size: 14px;
-    font-weight: 500;
-    color: #F17228;
-    border: 1px solid #F17228;
-    border-radius: 20px;
-    padding: 0.25rem 1rem;
-    margin-left: 1rem;
-    width: 15%;
-}
-.breadcrumb .active{
-    color: black;
 }
