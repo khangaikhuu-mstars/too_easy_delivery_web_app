@@ -171,7 +171,7 @@ function Menu () {
             <div>
               <img src={adminLogo} className='adminLogo'></img>
               <a href='/login' className='orangeFont admin poppins px-1 text-decoration-none'>
-                Нэвтр
+                Нэвтрэх
               </a>
             </div>
           </div>
