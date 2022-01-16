@@ -27,7 +27,6 @@ function Menu () {
   const [searchTerm, setSearchTerm] = useState("");
   
   function handleSearhcInputChange(event){
-    console.log(event.target.value)
     setSearchTerm(event.target.value)
   }
   
