@@ -6,6 +6,8 @@ import Delivery from './components/DeliveryComponent'
 import Main from './components/MainComponent'
 import Home from './components/HomeComponent'
 import Login from './components/FormLoginComponent'
+import Register from "./components/FormRegisterComponent"
+import Password from './components/ForgotPasswordComponent'
 import SearchResultComponent from './components/SearchResultComponent'
 import { Redirect } from 'react-router-dom'
 import './css/footer.css'
@@ -31,6 +33,8 @@ function App() {
           <Route path="/menu" component={Main}></Route>
           <Route path="/login" component={Login}></Route>
           <Route path="/search" component = {SearchResultComponent}></Route>
+          <Route path='/register' component={Register}></Route>
+          <Route path='/password' component={Password}></Route>
         </Switch>
         <Footer />
       </div>
