@@ -1,5 +1,3 @@
-
-
 import line from '../images/line.svg'
 
 function Password () {

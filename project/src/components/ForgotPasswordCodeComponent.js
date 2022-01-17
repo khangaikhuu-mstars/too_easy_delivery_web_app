@@ -1,7 +1,3 @@
-
-
-
-
 import line from '../images/line.svg'
 
 function PasswordCode () {

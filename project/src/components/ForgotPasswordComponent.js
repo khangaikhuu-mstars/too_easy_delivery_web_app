@@ -1,4 +1,3 @@
-
 import Email from './ForgotPasswordEmailComponent'
 import Code from './ForgotPasswordCodeComponent'
 import PasswordRepeat from './ForgotPassswordRepeat';
