@@ -2,7 +2,7 @@ import line from "../images/line.svg"
 
 function FormRegister(){
     return(
-        <div className="login-form">  
+        <div className="login-form mb-5">  
         <div className="form-mobile-header my-3 py-2 d-flex login-form-header text-center d-block d-md-none">
             <div className="ps-2">&#60;</div>
             <div className="flex-grow-1 align-self-center text-align-center">НЭВТРЭХ</div>

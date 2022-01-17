@@ -100,8 +100,9 @@ input::placeholder{
     height: 0.7em;
     margin-top: 0.5em;
 }
-
-
+#register-link a{
+    color: #F17228;
+}
 
 
 @media  screen and (max-width: 767px) {
@@ -109,7 +110,10 @@ input::placeholder{
         width: 100%;
         max-width: 335px;
     }
-
+    .form-check-label{
+        text-decoration: none;
+        color: #F17228 !important;
+    }
 }
 
 @media  screen and (min-width: 768px) and (max-width: 992px) {
