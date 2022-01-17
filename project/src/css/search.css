@@ -1,13 +1,15 @@
 #search-input{
-    transform-origin: right top;
-    /* transform: scale(.1); */
     background-color: #fff;
-    transition: transform 1s ease-out;
+    transition: width 2s, height 2s, transform 2s;
     border-radius: 10px;
     border: 1px solid #F17228;
     position:absolute;
     right: 0;
     margin-top: 0;
+
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
 }
 #search{
     position: relative;
@@ -24,8 +26,16 @@
 @media screen and (max-width: 767px) {
 
     #search-input{
-        width: 60vw;
+        width: 15px;
     }
+    #search-input:hover{
+        width: 50vw;
+        transition-property: width;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+
+
     .breadcrumb{
         font-size: 12px;
         width: 35% !important;
@@ -35,7 +45,13 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #search-input{
+        width: 15px;
+    }
+    #search-input:hover{
         width: 50vw;
+        transition-property: width;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
     }
     .breadcrumb{
         width: 25% !important;
