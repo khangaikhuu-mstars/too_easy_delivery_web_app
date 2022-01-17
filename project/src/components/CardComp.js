@@ -4,13 +4,13 @@ import '../css/cardComp.css'
 import CardModal from './CardModal'
 
 const CardComp = (props) => {
-  const [modalShow, setModal] = useState(false)
+  const [showModal , setShowModal] = useState(false);
   return (
     <div className="mainCard">
       {props.data.map((foodsDetail) => {
         return (
           <div className="row">
-            <div onclick = {()=> setModal(true)}>
+            <div onClick={()=> setShowModal(true)}>
               <Card 
                 className={foodsDetail.sales ? 'cardComponentWithBadge' : 'cardComponentWithoutBadge'}
                 style={{ width: '16rem' }} 
@@ -34,7 +34,7 @@ const CardComp = (props) => {
                   <Card.Text className="discount_percentage">{foodsDetail.discount_percentage}</Card.Text>
                 </Card.Body>
               </Card>
-              {modalShow && <CardModal />}
+            {showModal && <CardModal data = {props} /> }
             </div>
           </div>
         )
